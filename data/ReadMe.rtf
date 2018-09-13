@@ -1,0 +1,127 @@
+Context
+	This dataset was used for a study where the task was to generate a top-n list of restaurants according to the consumer preferences and finding the significant features. Two approaches were tested: a collaborative filter technique and a contextual approach: (i) The collaborative filter technique used only one file i.e., rating_final.csv that comprises the user, item and rating attributes. (ii) The contextual approach generated the recommendations using the remaining eight data files.
+
+Content
+	There are 9 data files and a README, and are grouped like this:
+
+Restaurants
+
+	1 chefmozaccepts.csv
+	2 chefmozcuisine.csv
+	3 chefmozhours4.csv
+	4 chefmozparking.csv
+	5 geoplaces2.csv
+Consumers
+
+	6 usercuisine.csv
+	7 userpayment.csv
+	8 userprofile.csv
+User-Item-Rating
+
+	9 rating_final.csv
+More detailed file descriptions can also be found in the README:
+
+	1 chefmozaccepts.csv
+
+		Instances: 1314
+		Attributes: 2
+		placeID: Nominal
+		Rpayment: Nominal, 12
+	2 chefmozcuisine.csv
+
+		Instances: 916
+		Attributes: 2
+		placeID: Nominal
+		Rcuisine: Nominal, 59
+	3 chefmozhours4.csv
+
+		Instances: 2339
+		Attributes: 3
+		placeID: Nominal
+		hours: Nominal, Range:00:00-23:30
+		days: Nominal, 7
+	4 chefmozparking.csv
+
+		Instances: 702
+		Attributes: 2
+		placeID: Nominal
+		parking_lot: Nominal, 7
+	5 geoplaces2.csv
+
+		Instances: 130
+		Attributes: 21
+		placeID: Nominal
+		latitude: Numeric
+		longitude: Numeric
+		the_geom_meter: Nominal (Geospatial)
+		name: Nominal
+		address: Nominal,Missing: 27
+		city: Nominal, Missing: 18
+		state: Nominal, Missing: 18
+		country: Nominal, Missing: 28
+		fax: Numeric, Missing: 130
+		zip: Nominal,Missing: 74
+		alcohol: Nominal, Values: 3
+		smoking_area: Nominal, 5
+		dress_code: Nominal, 3
+		accessibility: Nominal, 3
+		price: Nominal, 3
+		url: Nominal, Missing: 116
+		Rambience: Nominal, 2
+		franchise: Nominal, 2
+		area: Nominal, 2
+		other_services: Nominal, 3
+	6 rating_final.csv
+
+		Instances: 1161
+		Attributes: 5
+		userID: Nominal
+		placeID: Nominal
+		rating: Numeric, 3
+		food_rating: Numeric, 3
+		service_rating: Numeric, 3
+	7 usercuisine.csv
+
+		Instances: 330
+		Attributes: 2
+		userID: Nominal
+		Rcuisine: Nominal, 103
+	8 userpayment.csv
+
+		Instances: 177
+		Attributes: 2
+		userID: Nominal
+		Upayment: Nominal, 5
+	9 userprofile
+
+		Instances: 138
+		Attributes: 19
+		userID: Nominal
+		latitude: Numeric
+		longitude: Numeric
+		the_geom_meter: Nominal (Geospatial)
+		smoker: Nominal
+		drink_level: Nominal, 3
+		dress_preference:Nominal, 4
+		ambience: Nominal, 3
+		transport: Nominal, 3
+		marital_status: Nominal, 3
+		hijos: Nominal, 3
+		birth_year: Nominal
+		interest: Nominal, 5
+		personality: Nominal, 4
+		religion: Nominal, 5
+		activity: Nominal, 4
+		color: Nominal, 8
+		weight: Numeric
+		budget: Nominal, 3
+		height: Numeric
+Acknowledgements
+	This dataset was originally downloaded from the UCI ML Repository: UCI ML
+
+Creators: Rafael Ponce Medellín and Juan Gabriel González Serna rafaponce@cenidet.edu.mx, gabriel@cenidet.edu.mx Department of Computer Science. National Center for Research and Technological Development CENIDET, México
+
+Donors of database: Blanca Vargas-Govea and Juan Gabriel González Serna blanca.vargas@cenidet.edu.mx/blanca.vg@gmail.com, gabriel@cenidet.edu.mx Department of Computer Science. National Center for Research and Technological Development CENIDET, México
+
+Inspiration
+	Use this data to create a restaurant recommender or determine which restaurants a person is most likely to visit.
