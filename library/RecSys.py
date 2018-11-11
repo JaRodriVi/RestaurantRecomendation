@@ -13,7 +13,7 @@ import seaborn as sns
 # realID::String
 # falseID::String
 # ID::String
-# data:: single DataFrame or a list of DataFrame
+# data:: A DataFrame or a list of DataFrame
 # -----------
 ### Replace the falseID for the realID on data[ID]
 # -----------
@@ -24,7 +24,7 @@ def replaceID(realID, falseID, ID, data):
             
 # -----------
 ### params: realID::String
-# data:: single DataFrame or a list of DataFrame
+# data:: A DataFrame or a list of DataFrame
 # find:: String
 # -----------
 ### Find in data the "find" parametter, and return for 
@@ -40,4 +40,22 @@ def checkData(data, find):
                 indexAndColumn.append((i,col))
                 dataFind.append(df[df[col]==find])
     return indexAndColumn,dataFind 
+
+# -----------
+### params: 
+# data:: A DataFrame
+# column:: String of column to merge
+# -----------
+### Merge duplicates and clean them from column 
+# -----------
+def unionData(data,column):
+    columns = list(data)
+    columns.remove(column)
+    dataRe = pd.DataFrame(data['placeID'])
+    for col in columns:
+        data_list = data.groupby(column).apply(lambda x: ';'.join(map(lambda y: str(y),list(x[col].drop_duplicates()))))
+        data_list = pd.DataFrame({column:data_list.index,col:data_list.values})
+        dataRe = dataRe.merge(data_list, how = 'left', on = column)
+    dataRe=dataRe.drop_duplicates(column)
+    return dataRe
     
