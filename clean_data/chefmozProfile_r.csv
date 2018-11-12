@@ -1,1 +1,96 @@
 ;placeID;alcohol;smoking_area;dress_code;accessibility;price;Rambience;franchise;area;other_services;Rpayment;Rpayment_accepts;Rcuisine;Rcuisine_Type;hours;days;parking_lot;parking
+0;134999;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;nan;nan;Japanese;Asian;"11:00-21:00;";"Diary_Days;Sat;;Sun;";none;no
+3;132825;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;open;none;cash;cash;Mexican;South_American;"09:00-12:00;";"Diary_Days;Sat;;Sun;";none;no
+6;135106;Wine-Beer;only at bar;informal;yes_accessibility;medium;familiar;yes;open;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";Mexican;South_American;"18:00-23:30;;18:00-21:00;";"Diary_Days;Sat;;Sun;";none;no
+15;132667;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;no;closed;none;cash;cash;Armenian;Middle East;"00:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+18;132613;No_Alcohol_Served;permitted;informal;yes_accessibility;medium;familiar;no;closed;none;cash;cash;Mexican;South_American;"08:00-16:00;;07:00-16:00;";"Diary_Days;Sat;;Sun;";yes;yes
+30;132732;No_Alcohol_Served;none;casual;yes_accessibility;low;familiar;yes;open;none;cash;cash;Mexican;South_American;"19:00-01:00;";"Diary_Days;Sat;;Sun;";none;no
+33;132875;Wine-Beer;section;informal;no_accessibility;high;familiar;no;open;Internet;"cash;VISA;MasterCard-Eurocard;American_Express;bank_debit_cards";"cash; credictCard";Japanese;Asian;"00:00-23:30;";"Diary_Days;Sat;;Sun;";valet parking;yes
+48;132609;No_Alcohol_Served;not permitted;informal;yes_accessibility;low;quiet;no;closed;none;cash;cash;Fast_Food;Fast_Food;"12:00-18:00;;10:00-18:00;;00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+57;135069;Wine-Beer;none;informal;no_accessibility;low;familiar;yes;closed;none;cash;cash;Bar;Bar;"09:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+84;135086;No_Alcohol_Served;not permitted;informal;no_accessibility;medium;familiar;no;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";"Burgers;Fast_Food";Fast_Food;"08:00-23:00;";"Diary_Days;Sat;;Sun;";yes;yes
+102;132870;No_Alcohol_Served;not permitted;informal;no_accessibility;low;familiar;yes;closed;none;cash;cash;Burgers;Fast_Food;"10:30-23:00;";"Diary_Days;Sat;;Sun;";none;no
+105;132854;Wine-Beer;none;informal;yes_accessibility;medium;familiar;yes;closed;none;"cash;VISA;bank_debit_cards";"cash; credictCard";International;International;"10:30-22:00;";"Diary_Days;Sat;;Sun;";yes;yes
+114;132937;Full_Bar;section;informal;yes_accessibility;low;quiet;yes;closed;variety;cash;cash;Bar;Bar;"21:00-02:00;;16:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+117;132856;Wine-Beer;none;informal;yes_accessibility;low;familiar;yes;closed;none;cash;cash;Italian;Mediterranean;"10:30-22:30;";"Diary_Days;Sat;;Sun;";none;no
+120;132668;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;closed;none;nan;nan;Mexican;South_American;"00:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+135;132862;Wine-Beer;none;casual;yes_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express;bank_debit_cards";"cash; credictCard";International;International;"09:30-23:30;";"Diary_Days;Sat;;Sun;";valet parking;yes
+150;134983;Full_Bar;section;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";"Bar;Bar_Pub_Brewery";Bar;"13:00-23:30;;13:00-19:00;";"Diary_Days;Sat;;Sun;";yes;yes
+168;132851;No_Alcohol_Served;not permitted;informal;yes_accessibility;low;familiar;yes;closed;none;cash;cash;"American;Game";"North_American;Game";"09:00-22:00;";"Diary_Days;Sat;;Sun;";yes;yes
+177;135042;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Chinese;Asian;"11:00-21:30;";"Diary_Days;Sat;;Sun;";none;no
+180;132768;No_Alcohol_Served;not permitted;casual;yes_accessibility;medium;familiar;no;closed;none;"cash;bank_debit_cards";"cash; credictCard";Family;Family;"09:00-19:00;;10:00-18:00;;10:00-19:00;";"Diary_Days;Sat;;Sun;";none;no
+204;135054;No_Alcohol_Served;none;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";Seafood;Mediterranean;"07:00-19:00;";"Diary_Days;Sat;;Sun;";yes;yes
+225;135053;No_Alcohol_Served;section;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";"Cafeteria;Fast_Food;Pizzeria";"Coffee_Shop;Fast_Food";"11:00-22:00;";"Diary_Days;Sat;;Sun;";yes;yes
+273;135025;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Mexican;South_American;"18:00-23:30;;14:00-23:30;;00:00-00:00;";"Diary_Days;Sat;;Sun;";none;no
+285;135030;No_Alcohol_Served;none;informal;no_accessibility;medium;quiet;yes;closed;Internet;cash;cash;"Cafe-Coffee_Shop;Cafeteria";Coffee_Shop;"00:00-00:00;";"Diary_Days;Sat;;Sun;";none;no
+291;135057;Wine-Beer;section;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Bar;Bar;"13:00-23:00;";"Diary_Days;Sat;;Sun;";yes;yes
+303;135079;No_Alcohol_Served;none;informal;no_accessibility;high;familiar;yes;closed;none;"cash;American_Express";"cash; credictCard";Chinese;Asian;"13:00-22:30;;13:30-22:30;";"Diary_Days;Sat;;Sun;";none;no
+318;132954;No_Alcohol_Served;not permitted;informal;yes_accessibility;medium;familiar;no;closed;none;"cash;VISA;MasterCard-Eurocard;bank_debit_cards";"cash; credictCard";Breakfast-Brunch;Breakfast;"08:00-22:30;;08:00-15:30;;08:00-13:00;";"Diary_Days;Sat;;Sun;";yes;yes
+330;135041;Wine-Beer;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;"Bar;Cafeteria";"Bar;Coffee_Shop";"00:00-00:00;";"Diary_Days;Sat;;Sun;";none;no
+336;132608;No_Alcohol_Served;permitted;informal;yes_accessibility;low;quiet;no;open;none;cash;cash;Mexican;South_American;"19:00-02:00;";"Diary_Days;Sat;;Sun;";public;yes
+339;135046;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";Fast_Food;Fast_Food;"08:30-21:00;";"Diary_Days;Sat;;Sun;";yes;yes
+351;132869;No_Alcohol_Served;not permitted;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Pizzeria;Fast_Food;"10:00-23:00;";"Diary_Days;Sat;;Sun;";yes;yes
+354;132925;Wine-Beer;not permitted;informal;yes_accessibility;medium;familiar;yes;closed;none;cash;cash;Mexican;South_American;"09:00-21:00;";"Diary_Days;Sat;;Sun;";none;no
+357;132955;Wine-Beer;none;informal;yes_accessibility;low;familiar;no;closed;variety;"cash;VISA;MasterCard-Eurocard;bank_debit_cards;Carte_Blanche";"cash; credictCard";Bar_Pub_Brewery;Bar;"00:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+372;135059;Wine-Beer;section;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Bar;Bar;"12:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+414;135034;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Japanese;Asian;"13:30-23:00;;13:30-19:00;";"Diary_Days;Sat;;Sun;";none;no
+426;135060;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Seafood;Mediterranean;"11:30-19:00;";"Diary_Days;Sat;;Sun;";none;no
+429;135055;No_Alcohol_Served;section;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Mexican;South_American;"14:00-22:00;;14:00-20:30;";"Diary_Days;Sat;;Sun;";yes;yes
+444;135074;Wine-Beer;section;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";Contemporary;Contemporary;"07:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+453;135018;Full_Bar;permitted;informal;yes_accessibility;medium;familiar;yes;open;variety;"cash;VISA;MasterCard-Eurocard;bank_debit_cards";"cash; credictCard";Mexican;South_American;"00:00-00:00;";"Diary_Days;Sat;;Sun;";yes;yes
+486;132723;Full_Bar;section;informal;yes_accessibility;medium;familiar;yes;closed;none;"cash;VISA";"cash; credictCard";Mexican;South_American;"06:30-15:00;;00:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+495;135021;No_Alcohol_Served;not permitted;informal;no_accessibility;low;familiar;no;closed;none;cash;cash;Fast_Food;Fast_Food;"00:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+498;135052;Full_Bar;none;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";"Bar;Bar_Pub_Brewery";Bar;"08:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+516;132845;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Mexican;South_American;"19:30-23:30;";"Diary_Days;Sat;;Sun;";none;no
+522;132858;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;closed;none;cash;cash;Burgers;Fast_Food;"18:30-23:30;";"Diary_Days;Sat;;Sun;";none;no
+525;135026;Full_Bar;none;informal;no_accessibility;high;familiar;yes;closed;none;nan;nan;"Bar;Bar_Pub_Brewery";Bar;"13:30-23:30;;00:00-00:00;";"Diary_Days;Sat;;Sun;";none;no
+537;135104;Full_Bar;not permitted;informal;yes_accessibility;medium;familiar;no;closed;variety;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";Mexican;South_American;"00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+546;132630;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;closed;none;nan;nan;Mexican;South_American;"00:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+558;132951;No_Alcohol_Served;not permitted;casual;yes_accessibility;low;familiar;yes;closed;none;cash;cash;American;North_American;"00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+561;132665;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;closed;none;nan;nan;Mexican;South_American;"00:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+564;135044;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Chinese;Asian;"13:00-22:30;";"Diary_Days;Sat;;Sun;";none;no
+567;135035;No_Alcohol_Served;section;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Italian;Mediterranean;"13:30-23:30;;13:30-18:30;";"Diary_Days;Sat;;Sun;";yes;yes
+579;135071;Full_Bar;section;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";"Bar;Bar_Pub_Brewery";Bar;"13:00-23:30;;13:00-20:00;";"Diary_Days;Sat;;Sun;";yes;yes
+603;132834;No_Alcohol_Served;not permitted;casual;no_accessibility;low;familiar;yes;closed;none;cash;cash;Mexican;South_American;"08:30-15:00;;00:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+606;132846;No_Alcohol_Served;permitted;casual;no_accessibility;low;familiar;yes;open;none;cash;cash;International;International;"08:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+609;135048;Wine-Beer;none;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Bar;Bar;"11:00-22:30;";"Diary_Days;Sat;;Sun;";yes;yes
+621;132717;No_Alcohol_Served;not permitted;informal;yes_accessibility;medium;familiar;yes;closed;none;cash;cash;Fast_Food;Fast_Food;"09:30-21:30;";"Diary_Days;Sat;;Sun;";public;yes
+624;132861;No_Alcohol_Served;not permitted;informal;yes_accessibility;medium;familiar;no;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express;bank_debit_cards";"cash; credictCard";Burgers;Fast_Food;"10:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+639;132885;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;closed;none;cash;cash;Cafeteria;Coffee_Shop;"08:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+642;132740;No_Alcohol_Served;permitted;informal;yes_accessibility;low;familiar;yes;open;none;cash;cash;Mexican;South_American;"08:30-12:00;";"Diary_Days;Sat;;Sun;";none;no
+648;132773;Wine-Beer;permitted;informal;no_accessibility;low;familiar;yes;open;none;cash;cash;"Family;Mexican";"Family;South_American";"10:00-18:00;;10:00-13:00;";"Diary_Days;Sat;;Sun;";none;no
+654;132706;No_Alcohol_Served;not permitted;informal;no_accessibility;medium;familiar;no;closed;none;"cash;VISA";"cash; credictCard";Mexican;South_American;"09:00-20:00;";"Diary_Days;Sat;;Sun;";public;yes
+660;132872;No_Alcohol_Served;not permitted;informal;yes_accessibility;medium;familiar;yes;closed;none;"cash;bank_debit_cards";"cash; credictCard";American;North_American;"09:00-21:00;;09:30-21:00;;00:00-00:00;";"Diary_Days;Sat;;Sun;";public;yes
+669;132572;No_Alcohol_Served;not permitted;informal;yes_accessibility;low;familiar;yes;closed;none;cash;cash;Cafeteria;Coffee_Shop;"00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+672;132958;No_Alcohol_Served;none;informal;yes_accessibility;low;quiet;no;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express;bank_debit_cards";"cash; credictCard";American;North_American;"10:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+687;132733;No_Alcohol_Served;not permitted;informal;yes_accessibility;medium;familiar;no;closed;none;"cash;VISA;MasterCard-Eurocard;bank_debit_cards";"cash; credictCard";Pizzeria;Fast_Food;"10:30-22:30;;09:00-21:00;";"Diary_Days;Sat;;Sun;";yes;yes
+699;132922;No_Alcohol_Served;permitted;formal;yes_accessibility;medium;familiar;yes;closed;none;cash;cash;Cafeteria;Coffee_Shop;"19:00-23:00;";"Diary_Days;Sat;;Sun;";none;no
+702;132715;No_Alcohol_Served;none;informal;no_accessibility;low;quiet;yes;open;none;cash;cash;Mexican;South_American;"09:00-16:00;";"Diary_Days;Sat;;Sun;";none;no
+705;135027;Wine-Beer;none;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Mexican;South_American;"08:00-22:00;;08:00-23:00;;08:00-19:00;";"Diary_Days;Sat;;Sun;";none;no
+717;132767;Wine-Beer;permitted;casual;yes_accessibility;medium;familiar;yes;open;variety;"cash;VISA;American_Express";"cash; credictCard";Vietnamese;Asian;"14:00-20:00;;14:00-23:30;;12:30-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+726;135039;No_Alcohol_Served;section;informal;no_accessibility;low;familiar;yes;closed;none;cash;cash;Seafood;Mediterranean;"10:00-20:00;";"Diary_Days;Sat;;Sun;";yes;yes
+732;132755;No_Alcohol_Served;none;informal;yes_accessibility;medium;familiar;yes;closed;variety;"cash;VISA;American_Express;bank_debit_cards";"cash; credictCard";Mexican;South_American;"00:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+744;135043;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;"Fast_Food;Pizzeria";Fast_Food;"00:00-00:00;";"Diary_Days;Sat;;Sun;";none;no
+753;135049;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Seafood;Mediterranean;"12:00-20:00;";"Diary_Days;Sat;;Sun;";none;no
+756;135073;Wine-Beer;section;informal;no_accessibility;high;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";"Bar;Bar_Pub_Brewery";Bar;"09:30-23:30;;00:00-00:00;";"Diary_Days;Sat;;Sun;";yes;yes
+774;132560;No_Alcohol_Served;permitted;informal;no_accessibility;low;familiar;yes;open;none;cash;cash;Regional;South_American;"08:00-12:00;;00:00-00:00;";"Diary_Days;Sat;;Sun;";public;yes
+777;134976;No_Alcohol_Served;none;informal;no_accessibility;low;familiar;yes;closed;none;"VISA;MasterCard-Eurocard;American_Express;checks";" credictCard;checks";"Mexican;Mediterranean;Burgers";"South_American;Mediterranean;Fast_Food";nan;nan;yes;yes
+789;135075;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Seafood;Mediterranean;"00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+795;132921;Wine-Beer;section;casual;yes_accessibility;low;quiet;yes;open;none;cash;cash;Bar;Bar;"01:00-20:30;;01:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+798;132594;No_Alcohol_Served;not permitted;informal;yes_accessibility;low;familiar;yes;open;none;cash;cash;Mexican;South_American;"09:30-23:30;;09:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+801;134986;Wine-Beer;none;formal;no_accessibility;high;familiar;yes;closed;none;nan;nan;International;International;"00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+807;132766;Wine-Beer;none;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Japanese;Asian;"00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+810;135088;No_Alcohol_Served;not permitted;informal;no_accessibility;low;quiet;yes;closed;none;cash;cash;Cafeteria;Coffee_Shop;"09:00-16:00;;00:00-00:00;";"Diary_Days;Sat;;Sun;";public;yes
+813;135058;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;no;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";Pizzeria;Fast_Food;"13:00-23:00;";"Diary_Days;Sat;;Sun;";public;yes
+822;132754;No_Alcohol_Served;none;informal;yes_accessibility;medium;familiar;yes;closed;none;cash;cash;Mexican;South_American;"08:00-20:00;;08:00-18:00;";"Diary_Days;Sat;;Sun;";none;no
+825;132584;No_Alcohol_Served;not permitted;informal;yes_accessibility;medium;familiar;no;closed;none;cash;cash;Mexican;South_American;"08:30-20:00;;09:00-22:00;;09:00-20:30;";"Diary_Days;Sat;;Sun;";yes;yes
+828;135032;Wine-Beer;section;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard";"cash; credictCard";"Cafeteria;Contemporary";"Coffee_Shop;Contemporary";"07:00-23:30;";"Diary_Days;Sat;;Sun;";public;yes
+846;135028;Wine-Beer;none;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Mexican;South_American;"13:00-23:30;;13:00-19:00;";"Diary_Days;Sat;;Sun;";none;no
+858;135085;No_Alcohol_Served;not permitted;informal;no_accessibility;medium;familiar;yes;closed;none;cash;cash;Fast_Food;Fast_Food;"00:00-00:00;";"Diary_Days;Sat;;Sun;";public;yes
+861;132663;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;closed;none;nan;nan;Mexican;South_American;"00:00-23:30;";"Diary_Days;Sat;;Sun;";none;no
+864;132626;No_Alcohol_Served;none;informal;yes_accessibility;medium;familiar;no;closed;none;"cash;American_Express";"cash; credictCard";Italian;Mediterranean;"00:00-23:30;";"Diary_Days;Sat;;Sun;";yes;yes
+870;132583;No_Alcohol_Served;not permitted;informal;yes_accessibility;low;familiar;no;closed;none;"cash;VISA;MasterCard-Eurocard;bank_debit_cards";"cash; credictCard";American;North_American;nan;nan;none;no
+874;132866;No_Alcohol_Served;not permitted;informal;yes_accessibility;medium;familiar;yes;closed;none;cash;cash;"Bakery;Cafeteria";"Bakery;Coffee_Shop";"09:00-22:00;";"Diary_Days;Sat;;Sun;";yes;yes
+880;135072;No_Alcohol_Served;none;informal;no_accessibility;medium;familiar;yes;closed;none;"cash;VISA;MasterCard-Eurocard;American_Express";"cash; credictCard";Japanese;Asian;"13:00-23:00;;13:00-23:30;;13:00-22:00;";"Diary_Days;Sat;;Sun;";none;no
+892;135109;Wine-Beer;not permitted;informal;no_accessibility;medium;quiet;yes;closed;Internet;cash;cash;Italian;Mediterranean;"08:00-21:00;";"Diary_Days;Sat;;Sun;";none;no
+895;135019;No_Alcohol_Served;none;informal;yes_accessibility;low;familiar;yes;closed;none;nan;nan;Bar;Bar;"00:00-00:00;";"Diary_Days;Sat;;Sun;";none;no

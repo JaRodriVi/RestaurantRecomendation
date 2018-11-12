@@ -20,7 +20,6 @@ userprofile = pd.read_csv(path+"userprofile.csv")
 # This will contain the list of Datas that we will 
 # use for the Recommendation System
 listOfData_r = [rating_final]
-
 # This doesn't make much sense, we can split the Clasification for have less dummy variables, 
 # but we will try make the recomendation with full data
 chefmozacccepts['Rpayment_accepts'] = chefmozacccepts['Rpayment']
@@ -181,10 +180,10 @@ chefmozProfile_r = rs.unionData(chefmozProfile_r,'placeID')
 # Drop Session
 ##########
 listPlaceID2Drop = list(chefmozProfile_r[chefmozProfile_r["Rcuisine_Type"]=='nan']['placeID'].values)
-rating_final = rating_final.drop(rating_final['placeID'].isin(listPlaceID2Drop).index)
-chefmozGeo_r = chefmozGeo_r.drop(chefmozGeo_r['placeID'].isin(listPlaceID2Drop).index)
-userChefmozRelation_r = userChefmozRelation_r.drop(userChefmozRelation_r['placeID'].isin(listPlaceID2Drop).index)
-chefmozProfile_r = chefmozProfile_r.drop(chefmozProfile_r['placeID'].isin(listPlaceID2Drop).index)
+rating_final = rating_final.drop(rating_final[rating_final['placeID'].isin(listPlaceID2Drop)].index)
+chefmozGeo_r = chefmozGeo_r.drop(chefmozGeo_r[chefmozGeo_r['placeID'].isin(listPlaceID2Drop)].index)
+userChefmozRelation_r = userChefmozRelation_r.drop(userChefmozRelation_r[userChefmozRelation_r['placeID'].isin(listPlaceID2Drop)].index)
+chefmozProfile_r = chefmozProfile_r.drop(chefmozProfile_r[chefmozProfile_r['placeID'].isin(listPlaceID2Drop)].index)
 
 ##########
 # Write CSV
@@ -195,4 +194,3 @@ userChefmozRelation_r.to_csv("userChefmozRelation_r.csv", sep=';')
 chefmozProfile_r.to_csv("chefmozProfile_r.csv", sep=';')
 chefmozGeo_r.to_csv("chefmozGeo_r.csv", sep=';')
 rating_final.to_csv("rating_final_r.csv", sep=';')
-
