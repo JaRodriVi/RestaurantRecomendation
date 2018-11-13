@@ -1,139 +1,139 @@
 ;userID;smoker;drink_level;dress_preference;ambience;transport;marital_status;hijos;religion;activity;Rcuisine_Type;Upayment_accepts
-0;U1001;false;abstemious;informal;family;on foot;single;independent;none;student;['North_American'];['cash']
-1;U1002;false;abstemious;informal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-2;U1003;false;social drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-3;U1004;false;abstemious;informal;family;public;single;independent;none;professional;['Bakery', 'Breakfast', 'Asian', 'Contemporary', 'South_American', 'Breakfast', 'Coffee_Shop', 'European', 'Coffee_Shop'];['cash', ' credictCard']
-4;U1005;false;abstemious;no preference;family;public;single;independent;Catholic;student;['North_American'];['cash']
-5;U1006;true;social drinker;no preference;friends;car owner;single;independent;none;student;['South_American'];['cash']
-6;U1007;false;casual drinker;informal;solitary;public;single;independent;Catholic;student;['Family'];['cash']
-7;U1008;false;social drinker;formal;solitary;public;single;independent;Catholic;student;['Coffee_Shop', 'South_American', 'Breakfast', 'South_American', 'Fast_Food', 'South_American', 'Asian', 'North_American', 'Coffee_Shop', 'Mediterranean'];['cash']
-8;U1009;false;abstemious;formal;family;on foot;single;kids;Catholic;student;['Diner', 'Fast_Food', 'Family', 'Coffee_Shop', 'Fast_Food', 'Coffee_Shop', 'South_American'];['cash']
-9;U1010;false;social drinker;no preference;friends;car owner;married;kids;none;student;['South_American'];['cash']
-10;U1011;false;abstemious;no preference;family;public;single;independent;Catholic;student;['South_American'];['cash']
-11;U1012;false;casual drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash', ' credictCard']
-12;U1013;false;abstemious;no preference;friends;public;widow;independent;none;professional;['Asian'];[' credictCard', 'cash']
-13;U1014;false;abstemious;?;friends;public;single;independent;Catholic;student;['Asian', 'Fast_Food'];['cash']
-14;U1015;true;social drinker;informal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-15;U1016;false;casual drinker;informal;friends;on foot;single;independent;Catholic;student;['Coffee_Shop', 'Contemporary', 'South_American', 'Contemporary', 'Asian', 'Mediterranean', 'North_American', 'Indian-Pakistani', 'European', 'Mediterranean', 'Mediterranean', 'Meat', 'Australian', 'European'];['cash']
-16;U1017;false;casual drinker;formal;family;public;single;?;none;professional;['Asian'];['cash', ' credictCard']
-17;U1018;true;casual drinker;formal;friends;public;single;independent;Christian;student;['South_American'];['cash']
-18;U1019;false;casual drinker;no preference;family;public;single;independent;Catholic;student;['Family'];['cash']
-19;U1020;false;abstemious;no preference;friends;public;single;independent;Catholic;professional;['South_American'];['cash', ' credictCard']
-20;U1021;false;social drinker;no preference;family;car owner;single;dependent;Catholic;student;['Fast_Food', 'South_American', 'Asian', 'Fast_Food'];['cash']
-21;U1022;false;casual drinker;formal;family;car owner;single;independent;Catholic;student;['South_American'];['cash']
-22;U1023;false;casual drinker;informal;friends;car owner;single;independent;Catholic;student;['South_American'];['cash']
-23;U1024;?;abstemious;?;?;?;?;?;none;?;['Middle East'];
-24;U1025;false;social drinker;no preference;family;public;single;?;Catholic;student;['South_American'];
-25;U1026;false;abstemious;formal;family;public;single;independent;Catholic;student;['South_American'];['cash', ' credictCard']
-26;U1027;true;social drinker;no preference;?;public;single;independent;Catholic;student;['Family'];['cash']
-27;U1028;false;abstemious;no preference;family;public;single;independent;Christian;student;['South_American'];['cash']
-28;U1029;true;casual drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-29;U1030;false;casual drinker;formal;family;on foot;single;independent;Catholic;student;['South_American'];['cash']
-30;U1031;false;abstemious;informal;solitary;?;married;kids;Catholic;unemployed;['South_American'];['cash', ' credictCard']
-31;U1032;false;abstemious;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-32;U1033;false;social drinker;no preference;family;on foot;single;?;none;student;['South_American'];['cash']
-33;U1034;false;casual drinker;informal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-34;U1035;true;casual drinker;no preference;friends;car owner;single;independent;none;student;['Family'];['cash', ' credictCard']
-35;U1036;false;social drinker;informal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-36;U1037;false;social drinker;no preference;family;public;single;independent;Catholic;student;['South_American'];['cash']
-37;U1038;true;social drinker;no preference;family;public;single;independent;Catholic;student;['South_American'];['cash']
-38;U1039;false;social drinker;no preference;friends;?;single;independent;none;student;['South_American'];['cash']
-39;U1040;false;abstemious;no preference;friends;public;single;independent;Catholic;student;['Fast_Food'];['cash']
-40;U1041;false;abstemious;no preference;friends;on foot;single;independent;Catholic;professional;['Contemporary'];[' credictCard', 'cash', ' credictCard', ' credictCard']
-41;U1042;false;abstemious;no preference;family;car owner;single;independent;Christian;student;['South_American'];[' credictCard']
-42;U1043;false;abstemious;no preference;solitary;public;single;independent;none;student;['South_American'];['cash']
-43;U1044;true;social drinker;informal;family;car owner;married;kids;Catholic;professional;['South_American'];[' credictCard', ' credictCard', 'cash', ' credictCard']
-44;U1045;false;casual drinker;elegant;friends;car owner;single;independent;Mormon;student;['Middle East', 'South_American', 'Asian', 'Mediterranean'];['cash']
-45;U1046;false;social drinker;no preference;friends;car owner;single;independent;Catholic;student;['Bar'];['cash']
-46;U1047;false;abstemious;no preference;family;public;single;independent;Catholic;student;['North_American'];['cash']
-47;U1048;true;casual drinker;no preference;?;public;single;independent;none;student;['South_American'];['cash']
-48;U1049;false;casual drinker;informal;solitary;public;single;?;none;student;['South_American'];['cash']
-49;U1050;false;social drinker;no preference;family;car owner;single;independent;none;student;['South_American'];['cash']
-50;U1051;false;casual drinker;no preference;family;public;single;independent;none;professional;['South_American'];[' credictCard', 'cash']
-51;U1052;true;social drinker;no preference;family;on foot;single;independent;Catholic;student;['Bakery'];['cash']
-52;U1053;false;casual drinker;informal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-53;U1054;false;social drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-54;U1055;false;abstemious;no preference;family;car owner;married;dependent;Catholic;professional;['Breakfast'];['cash']
-55;U1056;false;social drinker;informal;family;on foot;single;independent;Catholic;student;['South_American'];['cash']
-56;U1057;true;casual drinker;formal;friends;public;single;independent;Catholic;student;['North_American'];['cash', ' credictCard']
-57;U1058;false;abstemious;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-58;U1059;false;abstemious;formal;friends;on foot;single;independent;Catholic;student;['South_American'];['cash']
-59;U1060;false;casual drinker;formal;family;public;single;independent;Catholic;student;['Fast_Food', 'Coffee_Shop', 'Fast_Food', 'Breakfast', 'North_American', 'North_American', 'Mediterranean', 'South_American', 'Fast_Food', 'Coffee_Shop', 'Soup', 'Fast_Food', 'Mediterranean'];['cash']
-60;U1061;false;social drinker;no preference;friends;car owner;single;independent;Catholic;professional;['South_American'];['cash', ' credictCard']
-61;U1062;false;casual drinker;informal;friends;car owner;single;independent;Catholic;student;['South_American'];[' credictCard', 'cash']
-62;U1063;false;casual drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-63;U1064;false;casual drinker;formal;solitary;public;single;independent;none;student;['South_American'];['cash']
-64;U1065;false;abstemious;formal;friends;public;single;independent;Catholic;student;['South_American'];['cash']
-65;U1066;false;abstemious;informal;solitary;public;single;?;Catholic;student;['South_American'];['cash', ' credictCard']
-66;U1067;false;abstemious;no preference;family;public;single;independent;Christian;student;['South_American'];['cash']
-67;U1068;false;casual drinker;informal;friends;public;single;independent;Catholic;student;['South_American'];['cash']
-68;U1069;false;social drinker;no preference;family;public;single;independent;Catholic;professional;['South_American'];[' credictCard', 'cash']
-69;U1070;false;casual drinker;informal;friends;public;single;independent;Catholic;student;['South_American'];['cash']
-70;U1071;false;abstemious;formal;friends;car owner;single;independent;none;student;['South_American'];['cash']
-71;U1072;false;casual drinker;no preference;family;public;single;independent;Christian;student;['South_American'];[' credictCard', 'cash']
-72;U1073;false;abstemious;informal;solitary;car owner;widow;kids;none;unemployed;['North_American'];['cash']
-73;U1074;true;casual drinker;no preference;family;car owner;single;kids;Catholic;professional;['Asian'];[' credictCard', 'cash']
-74;U1075;false;casual drinker;informal;family;car owner;single;independent;Catholic;student;['South_American'];['cash']
-75;U1076;false;social drinker;elegant;family;public;married;kids;Catholic;student;['South_American'];[' credictCard', 'cash', ' credictCard']
-76;U1077;false;social drinker;elegant;family;public;married;kids;Catholic;student;['South_American'];[' credictCard', 'cash', ' credictCard']
-77;U1078;true;social drinker;informal;solitary;car owner;single;independent;Catholic;professional;['South_American'];[' credictCard', ' credictCard', 'cash']
-78;U1079;false;abstemious;formal;family;public;single;independent;Catholic;?;['South_American'];['cash']
-79;U1080;true;social drinker;formal;friends;car owner;single;independent;Catholic;student;['South_American'];['cash']
-80;U1081;false;casual drinker;informal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-81;U1082;true;abstemious;informal;friends;public;single;?;Catholic;student;['South_American'];['cash']
-82;U1083;false;abstemious;?;?;?;?;?;none;?;['South_American'];['cash']
-83;U1084;true;casual drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-84;U1085;false;abstemious;no preference;solitary;car owner;single;independent;Catholic;student;['South_American'];['cash']
-85;U1086;false;social drinker;no preference;family;car owner;single;independent;Catholic;student;['Mediterranean'];[' credictCard', ' credictCard', 'cash']
-86;U1087;false;abstemious;no preference;solitary;public;single;independent;Catholic;student;['Asian'];['cash']
-87;U1088;false;social drinker;informal;family;on foot;single;independent;Catholic;student;['South_American'];
-88;U1089;true;casual drinker;informal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-89;U1090;false;social drinker;no preference;friends;car owner;single;independent;Catholic;student;['North_American'];['cash']
-90;U1091;false;casual drinker;no preference;family;car owner;single;independent;none;student;['North_American', 'South_American'];['cash']
-91;U1092;false;abstemious;formal;solitary;public;single;dependent;Catholic;?;['Game'];['cash']
-92;U1093;true;casual drinker;no preference;family;car owner;single;independent;Catholic;student;['Asian'];[' credictCard', ' credictCard']
-93;U1094;false;abstemious;informal;friends;public;single;independent;Catholic;student;['South_American'];['cash']
-94;U1095;false;abstemious;formal;family;public;married;independent;Catholic;student;['Mediterranean'];['cash']
-95;U1096;false;abstemious;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-96;U1097;false;abstemious;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-97;U1098;false;social drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-98;U1099;true;social drinker;informal;family;public;single;independent;Catholic;student;['South_American'];['cash', ' credictCard']
-99;U1100;false;casual drinker;formal;friends;public;single;independent;Christian;student;['South_American'];['cash']
-100;U1101;false;casual drinker;no preference;friends;car owner;single;independent;Catholic;student;['Asian', 'Mediterranean', 'Bakery', 'Middle East', 'South_American', 'Fast_Food', 'South_American', 'Contemporary', 'Coffee_Shop', 'Family', 'Coffee_Shop', 'Bar', 'Australian', 'Fast_Food', 'Diner'];['cash']
-101;U1102;false;social drinker;no preference;friends;on foot;single;independent;none;student;['Fast_Food'];['cash']
-102;U1103;false;abstemious;formal;friends;public;single;independent;Jewish;professional;['South_American'];['cash', ' credictCard']
-103;U1104;true;social drinker;no preference;family;car owner;single;independent;Catholic;student;['Mediterranean'];[' credictCard', 'cash']
-104;U1105;false;social drinker;formal;family;public;single;independent;Christian;student;['Coffee_Shop'];['cash']
-105;U1106;false;casual drinker;informal;friends;car owner;single;independent;Catholic;professional;['Meat'];[' credictCard', 'cash']
-106;U1107;false;abstemious;no preference;friends;car owner;single;independent;Catholic;?;['South_American'];[' credictCard', 'cash']
-107;U1108;false;abstemious;informal;solitary;public;single;independent;Catholic;student;['Coffee_Shop', 'Asian', 'South_American', 'Fast_Food', 'South_American', 'Fast_Food', 'North_American', 'Fast_Food', 'Fast_Food', 'Asian', 'Fast_Food', 'Asian', 'Ice_Cream', 'Coffee_Shop', 'Asian', 'Game', 'Family', 'Mediterranean'];[' credictCard', 'cash', ' credictCard']
-108;U1109;false;abstemious;formal;solitary;public;single;independent;Catholic;student;['South_American'];['cash']
-109;U1110;false;abstemious;no preference;family;car owner;single;independent;Catholic;student;['South_American'];['cash']
-110;U1111;true;casual drinker;formal;friends;car owner;single;independent;Catholic;student;['South_American'];['cash']
-111;U1112;true;casual drinker;formal;friends;car owner;single;independent;Catholic;student;['South_American'];['cash']
-112;U1113;false;casual drinker;formal;family;public;single;independent;Catholic;student;['Fast_Food'];[' credictCard', 'cash']
-113;U1114;false;abstemious;no preference;family;on foot;single;independent;Catholic;student;['South_American'];['cash']
-114;U1115;true;social drinker;elegant;friends;public;single;independent;Catholic;student;['South_American'];['cash']
-115;U1116;false;social drinker;formal;family;public;married;kids;Catholic;student;['South_American'];['cash', ' credictCard', ' credictCard']
-116;U1117;false;abstemious;no preference;friends;public;single;independent;Catholic;professional;['Mediterranean'];[' credictCard', 'cash']
-117;U1118;true;casual drinker;informal;friends;public;single;independent;none;student;['Fast_Food'];['cash']
-118;U1119;false;abstemious;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-119;U1120;false;abstemious;informal;friends;public;single;independent;none;student;['South_American'];['cash']
-120;U1121;false;social drinker;no preference;family;public;married;independent;Catholic;working-class;['South_American'];['cash', ' credictCard']
-121;U1122;?;abstemious;?;?;?;?;?;none;?;['Middle East'];
-122;U1123;false;abstemious;informal;family;?;single;independent;Catholic;student;['South_American'];['cash']
-123;U1124;false;casual drinker;informal;friends;public;single;independent;Catholic;student;['South_American'];['cash']
-124;U1125;false;casual drinker;formal;friends;public;single;independent;Catholic;student;['South_American'];['cash']
-125;U1126;false;casual drinker;formal;friends;on foot;single;independent;Catholic;student;['South_American'];['cash']
-126;U1127;false;abstemious;no preference;solitary;public;single;independent;Catholic;student;['South_American'];['cash']
-127;U1128;false;casual drinker;no preference;friends;public;single;independent;Catholic;student;['Coffee_Shop', 'Fast_Food', 'Fast_Food', 'South_American'];['cash']
-128;U1129;false;casual drinker;no preference;friends;public;single;independent;none;student;['South_American'];['cash']
-129;U1130;?;abstemious;?;?;?;?;?;none;?;['South_American'];
-130;U1131;true;social drinker;no preference;friends;car owner;married;kids;none;student;['South_American'];['cash']
-131;U1132;false;casual drinker;informal;solitary;public;single;?;none;student;['South_American'];['cash']
-132;U1133;false;abstemious;no preference;family;car owner;single;independent;none;student;['South_American'];[' credictCard', 'cash']
-133;U1134;false;casual drinker;no preference;family;public;single;independent;Catholic;student;['South_American'];['cash']
-134;U1135;false;casual drinker;informal;family;on foot;single;kids;Catholic;student;['Healthy-Vegetarian', 'Meat', 'Middle East', 'Mediterranean', 'European', 'European', 'Mediterranean', 'Bakery', 'Fast_Food', 'Mediterranean', 'Fast_Food', 'Mediterranean', 'Fast_Food', 'European', 'Asian', 'Fast_Food', 'Contemporary', 'Asian', 'Asian', 'Healthy-Vegetarian', 'Mediterranean', 'South_American', 'Breakfast', 'Mediterranean', 'Contemporary', 'African', 'Mediterranean', 'North_American', 'Middle East', 'Diner', 'European', 'Asian', 'Australian', 'Breakfast', 'North_American', 'South_American', 'North_American', 'Coffee_Shop', 'European', 'Family', 'Indian-Pakistani', 'Coffee_Shop', 'International', 'North_American', 'Australian', 'European', 'South_American', 'Mediterranean', 'Middle East', 'African', 'European', 'Asian', 'Australian', 'Mediterranean', 'South_American', 'Asian', 'Breakfast', 'Contemporary', 'Mediterranean', 'Asian', 'European', 'Bar', 'Soup', 'North_American', 'Asian', 'North_American', 'Middle East', 'South_American', 'Bar', 'South_American', 'Coffee_Shop', 'Mediterranean', 'Asian', 'Mediterranean', 'South_American', 'Australian', 'European', 'Bakery', 'European', 'Fast_Food', 'Kosher', 'Healthy-Vegetarian', 'South_American', 'Asian', 'South_American', 'Asian', 'European', 'South_American', 'Asian', 'North_American', 'Game', 'Mediterranean', 'European', 'South_American', 'European', 'Mediterranean', 'Asian', 'Asian', 'Meat', 'Mediterranean', 'South_American', 'South_American', 'Ice_Cream'];['cash']
-135;U1136;true;social drinker;no preference;friends;car owner;single;independent;Catholic;student;['South_American'];['cash']
-136;U1137;false;social drinker;formal;family;public;single;independent;Catholic;student;['South_American'];['cash']
-137;U1138;false;social drinker;formal;friends;public;single;independent;none;student;['Fast_Food'];['cash']
+0;0;false;abstemious;informal;family;on foot;single;independent;none;student;North_American;no
+1;1;false;abstemious;informal;family;public;single;independent;Catholic;student;South_American;no
+2;2;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
+3;3;false;abstemious;informal;family;public;single;independent;none;professional;"Bakery;Breakfast;Asian;Contemporary;South_American;Breakfast;Coffee_Shop;European;Coffee_Shop";yes
+4;4;false;abstemious;no preference;family;public;single;independent;Catholic;student;North_American;no
+5;5;true;social drinker;no preference;friends;car owner;single;independent;none;student;South_American;no
+6;6;false;casual drinker;informal;solitary;public;single;independent;Catholic;student;Family;no
+7;7;false;social drinker;formal;solitary;public;single;independent;Catholic;student;"Coffee_Shop;South_American;Breakfast;South_American;Fast_Food;South_American;Asian;North_American;Coffee_Shop;Mediterranean";no
+8;8;false;abstemious;formal;family;on foot;single;kids;Catholic;student;"Diner;Fast_Food;Family;Coffee_Shop;Fast_Food;Coffee_Shop;South_American";no
+9;9;false;social drinker;no preference;friends;car owner;married;kids;none;student;South_American;no
+10;10;false;abstemious;no preference;family;public;single;independent;Catholic;student;South_American;no
+11;11;false;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;yes
+12;12;false;abstemious;no preference;friends;public;widow;independent;none;professional;Asian;yes
+13;13;false;abstemious;?;friends;public;single;independent;Catholic;student;"Asian;Fast_Food";no
+14;14;true;social drinker;informal;family;public;single;independent;Catholic;student;South_American;no
+15;15;false;casual drinker;informal;friends;on foot;single;independent;Catholic;student;"Coffee_Shop;Contemporary;South_American;Contemporary;Asian;Mediterranean;North_American;Indian-Pakistani;European;Mediterranean;Mediterranean;Meat;Australian;European";no
+16;16;false;casual drinker;formal;family;public;single;?;none;professional;Asian;yes
+17;17;true;casual drinker;formal;friends;public;single;independent;Christian;student;South_American;no
+18;18;false;casual drinker;no preference;family;public;single;independent;Catholic;student;Family;no
+19;19;false;abstemious;no preference;friends;public;single;independent;Catholic;professional;South_American;yes
+20;20;false;social drinker;no preference;family;car owner;single;dependent;Catholic;student;"Fast_Food;South_American;Asian;Fast_Food";no
+21;21;false;casual drinker;formal;family;car owner;single;independent;Catholic;student;South_American;no
+22;22;false;casual drinker;informal;friends;car owner;single;independent;Catholic;student;South_American;no
+23;23;?;abstemious;?;?;?;?;?;none;?;Middle East;no
+24;24;false;social drinker;no preference;family;public;single;?;Catholic;student;South_American;no
+25;25;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;yes
+26;26;true;social drinker;no preference;?;public;single;independent;Catholic;student;Family;no
+27;27;false;abstemious;no preference;family;public;single;independent;Christian;student;South_American;no
+28;28;true;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;no
+29;29;false;casual drinker;formal;family;on foot;single;independent;Catholic;student;South_American;no
+30;30;false;abstemious;informal;solitary;?;married;kids;Catholic;unemployed;South_American;yes
+31;31;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
+32;32;false;social drinker;no preference;family;on foot;single;?;none;student;South_American;no
+33;33;false;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
+34;34;true;casual drinker;no preference;friends;car owner;single;independent;none;student;Family;yes
+35;35;false;social drinker;informal;family;public;single;independent;Catholic;student;South_American;no
+36;36;false;social drinker;no preference;family;public;single;independent;Catholic;student;South_American;no
+37;37;true;social drinker;no preference;family;public;single;independent;Catholic;student;South_American;no
+38;38;false;social drinker;no preference;friends;?;single;independent;none;student;South_American;no
+39;39;false;abstemious;no preference;friends;public;single;independent;Catholic;student;Fast_Food;no
+40;40;false;abstemious;no preference;friends;on foot;single;independent;Catholic;professional;Contemporary;yes
+41;41;false;abstemious;no preference;family;car owner;single;independent;Christian;student;South_American;yes
+42;42;false;abstemious;no preference;solitary;public;single;independent;none;student;South_American;no
+43;43;true;social drinker;informal;family;car owner;married;kids;Catholic;professional;South_American;yes
+44;44;false;casual drinker;elegant;friends;car owner;single;independent;Mormon;student;"Middle East;South_American;Asian;Mediterranean";no
+45;45;false;social drinker;no preference;friends;car owner;single;independent;Catholic;student;Bar;no
+46;46;false;abstemious;no preference;family;public;single;independent;Catholic;student;North_American;no
+47;47;true;casual drinker;no preference;?;public;single;independent;none;student;South_American;no
+48;48;false;casual drinker;informal;solitary;public;single;?;none;student;South_American;no
+49;49;false;social drinker;no preference;family;car owner;single;independent;none;student;South_American;no
+50;50;false;casual drinker;no preference;family;public;single;independent;none;professional;South_American;yes
+51;51;true;social drinker;no preference;family;on foot;single;independent;Catholic;student;Bakery;no
+52;52;false;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
+53;53;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
+54;54;false;abstemious;no preference;family;car owner;married;dependent;Catholic;professional;Breakfast;no
+55;55;false;social drinker;informal;family;on foot;single;independent;Catholic;student;South_American;no
+56;56;true;casual drinker;formal;friends;public;single;independent;Catholic;student;North_American;yes
+57;57;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
+58;58;false;abstemious;formal;friends;on foot;single;independent;Catholic;student;South_American;no
+59;59;false;casual drinker;formal;family;public;single;independent;Catholic;student;"Fast_Food;Coffee_Shop;Fast_Food;Breakfast;North_American;North_American;Mediterranean;South_American;Fast_Food;Coffee_Shop;Soup;Fast_Food;Mediterranean";no
+60;60;false;social drinker;no preference;friends;car owner;single;independent;Catholic;professional;South_American;yes
+61;61;false;casual drinker;informal;friends;car owner;single;independent;Catholic;student;South_American;yes
+62;62;false;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;no
+63;63;false;casual drinker;formal;solitary;public;single;independent;none;student;South_American;no
+64;64;false;abstemious;formal;friends;public;single;independent;Catholic;student;South_American;no
+65;65;false;abstemious;informal;solitary;public;single;?;Catholic;student;South_American;yes
+66;66;false;abstemious;no preference;family;public;single;independent;Christian;student;South_American;no
+67;67;false;casual drinker;informal;friends;public;single;independent;Catholic;student;South_American;no
+68;68;false;social drinker;no preference;family;public;single;independent;Catholic;professional;South_American;yes
+69;69;false;casual drinker;informal;friends;public;single;independent;Catholic;student;South_American;no
+70;70;false;abstemious;formal;friends;car owner;single;independent;none;student;South_American;no
+71;71;false;casual drinker;no preference;family;public;single;independent;Christian;student;South_American;yes
+72;72;false;abstemious;informal;solitary;car owner;widow;kids;none;unemployed;North_American;no
+73;73;true;casual drinker;no preference;family;car owner;single;kids;Catholic;professional;Asian;yes
+74;74;false;casual drinker;informal;family;car owner;single;independent;Catholic;student;South_American;no
+75;75;false;social drinker;elegant;family;public;married;kids;Catholic;student;South_American;yes
+76;76;false;social drinker;elegant;family;public;married;kids;Catholic;student;South_American;yes
+77;77;true;social drinker;informal;solitary;car owner;single;independent;Catholic;professional;South_American;yes
+78;78;false;abstemious;formal;family;public;single;independent;Catholic;?;South_American;no
+79;79;true;social drinker;formal;friends;car owner;single;independent;Catholic;student;South_American;no
+80;80;false;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
+81;81;true;abstemious;informal;friends;public;single;?;Catholic;student;South_American;no
+82;82;false;abstemious;?;?;?;?;?;none;?;South_American;no
+83;83;true;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;no
+84;84;false;abstemious;no preference;solitary;car owner;single;independent;Catholic;student;South_American;no
+85;85;false;social drinker;no preference;family;car owner;single;independent;Catholic;student;Mediterranean;yes
+86;86;false;abstemious;no preference;solitary;public;single;independent;Catholic;student;Asian;no
+87;87;false;social drinker;informal;family;on foot;single;independent;Catholic;student;South_American;no
+88;88;true;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
+89;89;false;social drinker;no preference;friends;car owner;single;independent;Catholic;student;North_American;no
+90;90;false;casual drinker;no preference;family;car owner;single;independent;none;student;"North_American;South_American";no
+91;91;false;abstemious;formal;solitary;public;single;dependent;Catholic;?;Game;no
+92;92;true;casual drinker;no preference;family;car owner;single;independent;Catholic;student;Asian;yes
+93;93;false;abstemious;informal;friends;public;single;independent;Catholic;student;South_American;no
+94;94;false;abstemious;formal;family;public;married;independent;Catholic;student;Mediterranean;no
+95;95;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
+96;96;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
+97;97;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
+98;98;true;social drinker;informal;family;public;single;independent;Catholic;student;South_American;yes
+99;99;false;casual drinker;formal;friends;public;single;independent;Christian;student;South_American;no
+100;100;false;casual drinker;no preference;friends;car owner;single;independent;Catholic;student;"Asian;Mediterranean;Bakery;Middle East;South_American;Fast_Food;South_American;Contemporary;Coffee_Shop;Family;Coffee_Shop;Bar;Australian;Fast_Food;Diner";no
+101;101;false;social drinker;no preference;friends;on foot;single;independent;none;student;Fast_Food;no
+102;102;false;abstemious;formal;friends;public;single;independent;Jewish;professional;South_American;yes
+103;103;true;social drinker;no preference;family;car owner;single;independent;Catholic;student;Mediterranean;yes
+104;104;false;social drinker;formal;family;public;single;independent;Christian;student;Coffee_Shop;no
+105;105;false;casual drinker;informal;friends;car owner;single;independent;Catholic;professional;Meat;yes
+106;106;false;abstemious;no preference;friends;car owner;single;independent;Catholic;?;South_American;yes
+107;107;false;abstemious;informal;solitary;public;single;independent;Catholic;student;"Coffee_Shop;Asian;South_American;Fast_Food;South_American;Fast_Food;North_American;Fast_Food;Fast_Food;Asian;Fast_Food;Asian;Ice_Cream;Coffee_Shop;Asian;Game;Family;Mediterranean";yes
+108;108;false;abstemious;formal;solitary;public;single;independent;Catholic;student;South_American;no
+109;109;false;abstemious;no preference;family;car owner;single;independent;Catholic;student;South_American;no
+110;110;true;casual drinker;formal;friends;car owner;single;independent;Catholic;student;South_American;no
+111;111;true;casual drinker;formal;friends;car owner;single;independent;Catholic;student;South_American;no
+112;112;false;casual drinker;formal;family;public;single;independent;Catholic;student;Fast_Food;yes
+113;113;false;abstemious;no preference;family;on foot;single;independent;Catholic;student;South_American;no
+114;114;true;social drinker;elegant;friends;public;single;independent;Catholic;student;South_American;no
+115;115;false;social drinker;formal;family;public;married;kids;Catholic;student;South_American;yes
+116;116;false;abstemious;no preference;friends;public;single;independent;Catholic;professional;Mediterranean;yes
+117;117;true;casual drinker;informal;friends;public;single;independent;none;student;Fast_Food;no
+118;118;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
+119;119;false;abstemious;informal;friends;public;single;independent;none;student;South_American;no
+120;120;false;social drinker;no preference;family;public;married;independent;Catholic;working-class;South_American;yes
+121;121;?;abstemious;?;?;?;?;?;none;?;Middle East;no
+122;122;false;abstemious;informal;family;?;single;independent;Catholic;student;South_American;no
+123;123;false;casual drinker;informal;friends;public;single;independent;Catholic;student;South_American;no
+124;124;false;casual drinker;formal;friends;public;single;independent;Catholic;student;South_American;no
+125;125;false;casual drinker;formal;friends;on foot;single;independent;Catholic;student;South_American;no
+126;126;false;abstemious;no preference;solitary;public;single;independent;Catholic;student;South_American;no
+127;127;false;casual drinker;no preference;friends;public;single;independent;Catholic;student;"Coffee_Shop;Fast_Food;Fast_Food;South_American";no
+128;128;false;casual drinker;no preference;friends;public;single;independent;none;student;South_American;no
+129;129;?;abstemious;?;?;?;?;?;none;?;South_American;no
+130;130;true;social drinker;no preference;friends;car owner;married;kids;none;student;South_American;no
+131;131;false;casual drinker;informal;solitary;public;single;?;none;student;South_American;no
+132;132;false;abstemious;no preference;family;car owner;single;independent;none;student;South_American;yes
+133;133;false;casual drinker;no preference;family;public;single;independent;Catholic;student;South_American;no
+134;134;false;casual drinker;informal;family;on foot;single;kids;Catholic;student;"Healthy-Vegetarian;Meat;Middle East;Mediterranean;European;European;Mediterranean;Bakery;Fast_Food;Mediterranean;Fast_Food;Mediterranean;Fast_Food;European;Asian;Fast_Food;Contemporary;Asian;Asian;Healthy-Vegetarian;Mediterranean;South_American;Breakfast;Mediterranean;Contemporary;African;Mediterranean;North_American;Middle East;Diner;European;Asian;Australian;Breakfast;North_American;South_American;North_American;Coffee_Shop;European;Family;Indian-Pakistani;Coffee_Shop;International;North_American;Australian;European;South_American;Mediterranean;Middle East;African;European;Asian;Australian;Mediterranean;South_American;Asian;Breakfast;Contemporary;Mediterranean;Asian;European;Bar;Soup;North_American;Asian;North_American;Middle East;South_American;Bar;South_American;Coffee_Shop;Mediterranean;Asian;Mediterranean;South_American;Australian;European;Bakery;European;Fast_Food;Kosher;Healthy-Vegetarian;South_American;Asian;South_American;Asian;European;South_American;Asian;North_American;Game;Mediterranean;European;South_American;European;Mediterranean;Asian;Asian;Meat;Mediterranean;South_American;South_American;Ice_Cream";no
+135;135;true;social drinker;no preference;friends;car owner;single;independent;Catholic;student;South_American;no
+136;136;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
+137;137;false;social drinker;formal;friends;public;single;independent;none;student;Fast_Food;no
