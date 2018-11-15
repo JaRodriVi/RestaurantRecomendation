@@ -58,4 +58,3 @@ def unionData(data,column):
         dataRe = dataRe.merge(data_list, how = 'left', on = column)
     dataRe=dataRe.drop_duplicates(column)
     return dataRe
-    

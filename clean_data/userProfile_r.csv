@@ -1,139 +1,139 @@
-;userID;smoker;drink_level;dress_preference;ambience;transport;marital_status;hijos;religion;activity;Rcuisine_Type;Upayment_accepts
-0;0;false;abstemious;informal;family;on foot;single;independent;none;student;North_American;no
-1;1;false;abstemious;informal;family;public;single;independent;Catholic;student;South_American;no
-2;2;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
-3;3;false;abstemious;informal;family;public;single;independent;none;professional;"Bakery;Breakfast;Asian;Contemporary;South_American;Breakfast;Coffee_Shop;European;Coffee_Shop";yes
-4;4;false;abstemious;no preference;family;public;single;independent;Catholic;student;North_American;no
-5;5;true;social drinker;no preference;friends;car owner;single;independent;none;student;South_American;no
-6;6;false;casual drinker;informal;solitary;public;single;independent;Catholic;student;Family;no
-7;7;false;social drinker;formal;solitary;public;single;independent;Catholic;student;"Coffee_Shop;South_American;Breakfast;South_American;Fast_Food;South_American;Asian;North_American;Coffee_Shop;Mediterranean";no
-8;8;false;abstemious;formal;family;on foot;single;kids;Catholic;student;"Diner;Fast_Food;Family;Coffee_Shop;Fast_Food;Coffee_Shop;South_American";no
-9;9;false;social drinker;no preference;friends;car owner;married;kids;none;student;South_American;no
-10;10;false;abstemious;no preference;family;public;single;independent;Catholic;student;South_American;no
-11;11;false;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;yes
-12;12;false;abstemious;no preference;friends;public;widow;independent;none;professional;Asian;yes
-13;13;false;abstemious;?;friends;public;single;independent;Catholic;student;"Asian;Fast_Food";no
-14;14;true;social drinker;informal;family;public;single;independent;Catholic;student;South_American;no
-15;15;false;casual drinker;informal;friends;on foot;single;independent;Catholic;student;"Coffee_Shop;Contemporary;South_American;Contemporary;Asian;Mediterranean;North_American;Indian-Pakistani;European;Mediterranean;Mediterranean;Meat;Australian;European";no
-16;16;false;casual drinker;formal;family;public;single;?;none;professional;Asian;yes
-17;17;true;casual drinker;formal;friends;public;single;independent;Christian;student;South_American;no
-18;18;false;casual drinker;no preference;family;public;single;independent;Catholic;student;Family;no
-19;19;false;abstemious;no preference;friends;public;single;independent;Catholic;professional;South_American;yes
-20;20;false;social drinker;no preference;family;car owner;single;dependent;Catholic;student;"Fast_Food;South_American;Asian;Fast_Food";no
-21;21;false;casual drinker;formal;family;car owner;single;independent;Catholic;student;South_American;no
-22;22;false;casual drinker;informal;friends;car owner;single;independent;Catholic;student;South_American;no
-23;23;?;abstemious;?;?;?;?;?;none;?;Middle East;no
-24;24;false;social drinker;no preference;family;public;single;?;Catholic;student;South_American;no
-25;25;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;yes
-26;26;true;social drinker;no preference;?;public;single;independent;Catholic;student;Family;no
-27;27;false;abstemious;no preference;family;public;single;independent;Christian;student;South_American;no
-28;28;true;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;no
-29;29;false;casual drinker;formal;family;on foot;single;independent;Catholic;student;South_American;no
-30;30;false;abstemious;informal;solitary;?;married;kids;Catholic;unemployed;South_American;yes
-31;31;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
-32;32;false;social drinker;no preference;family;on foot;single;?;none;student;South_American;no
-33;33;false;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
-34;34;true;casual drinker;no preference;friends;car owner;single;independent;none;student;Family;yes
-35;35;false;social drinker;informal;family;public;single;independent;Catholic;student;South_American;no
-36;36;false;social drinker;no preference;family;public;single;independent;Catholic;student;South_American;no
-37;37;true;social drinker;no preference;family;public;single;independent;Catholic;student;South_American;no
-38;38;false;social drinker;no preference;friends;?;single;independent;none;student;South_American;no
-39;39;false;abstemious;no preference;friends;public;single;independent;Catholic;student;Fast_Food;no
-40;40;false;abstemious;no preference;friends;on foot;single;independent;Catholic;professional;Contemporary;yes
-41;41;false;abstemious;no preference;family;car owner;single;independent;Christian;student;South_American;yes
-42;42;false;abstemious;no preference;solitary;public;single;independent;none;student;South_American;no
-43;43;true;social drinker;informal;family;car owner;married;kids;Catholic;professional;South_American;yes
-44;44;false;casual drinker;elegant;friends;car owner;single;independent;Mormon;student;"Middle East;South_American;Asian;Mediterranean";no
-45;45;false;social drinker;no preference;friends;car owner;single;independent;Catholic;student;Bar;no
-46;46;false;abstemious;no preference;family;public;single;independent;Catholic;student;North_American;no
-47;47;true;casual drinker;no preference;?;public;single;independent;none;student;South_American;no
-48;48;false;casual drinker;informal;solitary;public;single;?;none;student;South_American;no
-49;49;false;social drinker;no preference;family;car owner;single;independent;none;student;South_American;no
-50;50;false;casual drinker;no preference;family;public;single;independent;none;professional;South_American;yes
-51;51;true;social drinker;no preference;family;on foot;single;independent;Catholic;student;Bakery;no
-52;52;false;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
-53;53;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
-54;54;false;abstemious;no preference;family;car owner;married;dependent;Catholic;professional;Breakfast;no
-55;55;false;social drinker;informal;family;on foot;single;independent;Catholic;student;South_American;no
-56;56;true;casual drinker;formal;friends;public;single;independent;Catholic;student;North_American;yes
-57;57;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
-58;58;false;abstemious;formal;friends;on foot;single;independent;Catholic;student;South_American;no
-59;59;false;casual drinker;formal;family;public;single;independent;Catholic;student;"Fast_Food;Coffee_Shop;Fast_Food;Breakfast;North_American;North_American;Mediterranean;South_American;Fast_Food;Coffee_Shop;Soup;Fast_Food;Mediterranean";no
-60;60;false;social drinker;no preference;friends;car owner;single;independent;Catholic;professional;South_American;yes
-61;61;false;casual drinker;informal;friends;car owner;single;independent;Catholic;student;South_American;yes
-62;62;false;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;no
-63;63;false;casual drinker;formal;solitary;public;single;independent;none;student;South_American;no
-64;64;false;abstemious;formal;friends;public;single;independent;Catholic;student;South_American;no
-65;65;false;abstemious;informal;solitary;public;single;?;Catholic;student;South_American;yes
-66;66;false;abstemious;no preference;family;public;single;independent;Christian;student;South_American;no
-67;67;false;casual drinker;informal;friends;public;single;independent;Catholic;student;South_American;no
-68;68;false;social drinker;no preference;family;public;single;independent;Catholic;professional;South_American;yes
-69;69;false;casual drinker;informal;friends;public;single;independent;Catholic;student;South_American;no
-70;70;false;abstemious;formal;friends;car owner;single;independent;none;student;South_American;no
-71;71;false;casual drinker;no preference;family;public;single;independent;Christian;student;South_American;yes
-72;72;false;abstemious;informal;solitary;car owner;widow;kids;none;unemployed;North_American;no
-73;73;true;casual drinker;no preference;family;car owner;single;kids;Catholic;professional;Asian;yes
-74;74;false;casual drinker;informal;family;car owner;single;independent;Catholic;student;South_American;no
-75;75;false;social drinker;elegant;family;public;married;kids;Catholic;student;South_American;yes
-76;76;false;social drinker;elegant;family;public;married;kids;Catholic;student;South_American;yes
-77;77;true;social drinker;informal;solitary;car owner;single;independent;Catholic;professional;South_American;yes
-78;78;false;abstemious;formal;family;public;single;independent;Catholic;?;South_American;no
-79;79;true;social drinker;formal;friends;car owner;single;independent;Catholic;student;South_American;no
-80;80;false;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
-81;81;true;abstemious;informal;friends;public;single;?;Catholic;student;South_American;no
-82;82;false;abstemious;?;?;?;?;?;none;?;South_American;no
-83;83;true;casual drinker;formal;family;public;single;independent;Catholic;student;South_American;no
-84;84;false;abstemious;no preference;solitary;car owner;single;independent;Catholic;student;South_American;no
-85;85;false;social drinker;no preference;family;car owner;single;independent;Catholic;student;Mediterranean;yes
-86;86;false;abstemious;no preference;solitary;public;single;independent;Catholic;student;Asian;no
-87;87;false;social drinker;informal;family;on foot;single;independent;Catholic;student;South_American;no
-88;88;true;casual drinker;informal;family;public;single;independent;Catholic;student;South_American;no
-89;89;false;social drinker;no preference;friends;car owner;single;independent;Catholic;student;North_American;no
-90;90;false;casual drinker;no preference;family;car owner;single;independent;none;student;"North_American;South_American";no
-91;91;false;abstemious;formal;solitary;public;single;dependent;Catholic;?;Game;no
-92;92;true;casual drinker;no preference;family;car owner;single;independent;Catholic;student;Asian;yes
-93;93;false;abstemious;informal;friends;public;single;independent;Catholic;student;South_American;no
-94;94;false;abstemious;formal;family;public;married;independent;Catholic;student;Mediterranean;no
-95;95;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
-96;96;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
-97;97;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
-98;98;true;social drinker;informal;family;public;single;independent;Catholic;student;South_American;yes
-99;99;false;casual drinker;formal;friends;public;single;independent;Christian;student;South_American;no
-100;100;false;casual drinker;no preference;friends;car owner;single;independent;Catholic;student;"Asian;Mediterranean;Bakery;Middle East;South_American;Fast_Food;South_American;Contemporary;Coffee_Shop;Family;Coffee_Shop;Bar;Australian;Fast_Food;Diner";no
-101;101;false;social drinker;no preference;friends;on foot;single;independent;none;student;Fast_Food;no
-102;102;false;abstemious;formal;friends;public;single;independent;Jewish;professional;South_American;yes
-103;103;true;social drinker;no preference;family;car owner;single;independent;Catholic;student;Mediterranean;yes
-104;104;false;social drinker;formal;family;public;single;independent;Christian;student;Coffee_Shop;no
-105;105;false;casual drinker;informal;friends;car owner;single;independent;Catholic;professional;Meat;yes
-106;106;false;abstemious;no preference;friends;car owner;single;independent;Catholic;?;South_American;yes
-107;107;false;abstemious;informal;solitary;public;single;independent;Catholic;student;"Coffee_Shop;Asian;South_American;Fast_Food;South_American;Fast_Food;North_American;Fast_Food;Fast_Food;Asian;Fast_Food;Asian;Ice_Cream;Coffee_Shop;Asian;Game;Family;Mediterranean";yes
-108;108;false;abstemious;formal;solitary;public;single;independent;Catholic;student;South_American;no
-109;109;false;abstemious;no preference;family;car owner;single;independent;Catholic;student;South_American;no
-110;110;true;casual drinker;formal;friends;car owner;single;independent;Catholic;student;South_American;no
-111;111;true;casual drinker;formal;friends;car owner;single;independent;Catholic;student;South_American;no
-112;112;false;casual drinker;formal;family;public;single;independent;Catholic;student;Fast_Food;yes
-113;113;false;abstemious;no preference;family;on foot;single;independent;Catholic;student;South_American;no
-114;114;true;social drinker;elegant;friends;public;single;independent;Catholic;student;South_American;no
-115;115;false;social drinker;formal;family;public;married;kids;Catholic;student;South_American;yes
-116;116;false;abstemious;no preference;friends;public;single;independent;Catholic;professional;Mediterranean;yes
-117;117;true;casual drinker;informal;friends;public;single;independent;none;student;Fast_Food;no
-118;118;false;abstemious;formal;family;public;single;independent;Catholic;student;South_American;no
-119;119;false;abstemious;informal;friends;public;single;independent;none;student;South_American;no
-120;120;false;social drinker;no preference;family;public;married;independent;Catholic;working-class;South_American;yes
-121;121;?;abstemious;?;?;?;?;?;none;?;Middle East;no
-122;122;false;abstemious;informal;family;?;single;independent;Catholic;student;South_American;no
-123;123;false;casual drinker;informal;friends;public;single;independent;Catholic;student;South_American;no
-124;124;false;casual drinker;formal;friends;public;single;independent;Catholic;student;South_American;no
-125;125;false;casual drinker;formal;friends;on foot;single;independent;Catholic;student;South_American;no
-126;126;false;abstemious;no preference;solitary;public;single;independent;Catholic;student;South_American;no
-127;127;false;casual drinker;no preference;friends;public;single;independent;Catholic;student;"Coffee_Shop;Fast_Food;Fast_Food;South_American";no
-128;128;false;casual drinker;no preference;friends;public;single;independent;none;student;South_American;no
-129;129;?;abstemious;?;?;?;?;?;none;?;South_American;no
-130;130;true;social drinker;no preference;friends;car owner;married;kids;none;student;South_American;no
-131;131;false;casual drinker;informal;solitary;public;single;?;none;student;South_American;no
-132;132;false;abstemious;no preference;family;car owner;single;independent;none;student;South_American;yes
-133;133;false;casual drinker;no preference;family;public;single;independent;Catholic;student;South_American;no
-134;134;false;casual drinker;informal;family;on foot;single;kids;Catholic;student;"Healthy-Vegetarian;Meat;Middle East;Mediterranean;European;European;Mediterranean;Bakery;Fast_Food;Mediterranean;Fast_Food;Mediterranean;Fast_Food;European;Asian;Fast_Food;Contemporary;Asian;Asian;Healthy-Vegetarian;Mediterranean;South_American;Breakfast;Mediterranean;Contemporary;African;Mediterranean;North_American;Middle East;Diner;European;Asian;Australian;Breakfast;North_American;South_American;North_American;Coffee_Shop;European;Family;Indian-Pakistani;Coffee_Shop;International;North_American;Australian;European;South_American;Mediterranean;Middle East;African;European;Asian;Australian;Mediterranean;South_American;Asian;Breakfast;Contemporary;Mediterranean;Asian;European;Bar;Soup;North_American;Asian;North_American;Middle East;South_American;Bar;South_American;Coffee_Shop;Mediterranean;Asian;Mediterranean;South_American;Australian;European;Bakery;European;Fast_Food;Kosher;Healthy-Vegetarian;South_American;Asian;South_American;Asian;European;South_American;Asian;North_American;Game;Mediterranean;European;South_American;European;Mediterranean;Asian;Asian;Meat;Mediterranean;South_American;South_American;Ice_Cream";no
-135;135;true;social drinker;no preference;friends;car owner;single;independent;Catholic;student;South_American;no
-136;136;false;social drinker;formal;family;public;single;independent;Catholic;student;South_American;no
-137;137;false;social drinker;formal;friends;public;single;independent;none;student;Fast_Food;no
+;userID;smoker;drink_level;dress_preference;ambience;transport;marital_status;hijos;religion;activity;need_Parking;Rcuisine_Type;Upayment_accepts
+0;1;yes;abstemious;informal;family;on foot;single;independent;none;student;no;North_American;no
+1;2;yes;abstemious;informal;family;public;single;independent;Catholic;student;no;South_American;no
+2;3;yes;social drinker;formal;family;public;single;independent;Catholic;student;no;South_American;no
+3;4;yes;abstemious;informal;family;public;single;independent;none;professional;no;"Bakery;Breakfast;Asian;Contemporary;South_American;Breakfast;Coffee_Shop;European;Coffee_Shop";yes
+4;5;yes;abstemious;other;family;public;single;independent;Catholic;student;no;North_American;no
+5;6;yes;social drinker;other;friends;car owner;single;independent;none;student;yes;South_American;no
+6;7;yes;casual drinker;informal;solitary;public;single;independent;Catholic;student;no;Family;no
+7;8;yes;social drinker;formal;solitary;public;single;independent;Catholic;student;no;"Coffee_Shop;South_American;Breakfast;South_American;Fast_Food;South_American;Asian;North_American;Coffee_Shop;Mediterranean";no
+8;9;yes;abstemious;formal;family;on foot;single;kids;Catholic;student;no;"Diner;Fast_Food;Family;Coffee_Shop;Fast_Food;Coffee_Shop;South_American";no
+9;10;yes;social drinker;other;friends;car owner;married;kids;none;student;yes;South_American;no
+10;11;yes;abstemious;other;family;public;single;independent;Catholic;student;no;South_American;no
+11;12;yes;casual drinker;formal;family;public;single;independent;Catholic;student;no;South_American;yes
+12;13;yes;abstemious;other;friends;public;widow;independent;none;professional;no;Asian;yes
+13;14;yes;abstemious;other;friends;public;single;independent;Catholic;student;no;"Asian;Fast_Food";no
+14;15;yes;social drinker;informal;family;public;single;independent;Catholic;student;no;South_American;no
+15;16;yes;casual drinker;informal;friends;on foot;single;independent;Catholic;student;no;"Coffee_Shop;Contemporary;South_American;Contemporary;Asian;Mediterranean;North_American;Indian-Pakistani;European;Mediterranean;Mediterranean;Meat;Australian;European";no
+16;17;yes;casual drinker;formal;family;public;single;?;none;professional;no;Asian;yes
+17;18;yes;casual drinker;formal;friends;public;single;independent;Christian;student;no;South_American;no
+18;19;yes;casual drinker;other;family;public;single;independent;Catholic;student;no;Family;no
+19;20;yes;abstemious;other;friends;public;single;independent;Catholic;professional;no;South_American;yes
+20;21;yes;social drinker;other;family;car owner;single;dependent;Catholic;student;yes;"Fast_Food;South_American;Asian;Fast_Food";no
+21;22;yes;casual drinker;formal;family;car owner;single;independent;Catholic;student;yes;South_American;no
+22;23;yes;casual drinker;informal;friends;car owner;single;independent;Catholic;student;yes;South_American;no
+23;24;yes;abstemious;other;?;?;?;?;none;?;other;Middle East;no
+24;25;yes;social drinker;other;family;public;single;?;Catholic;student;no;South_American;no
+25;26;yes;abstemious;formal;family;public;single;independent;Catholic;student;no;South_American;yes
+26;27;yes;social drinker;other;?;public;single;independent;Catholic;student;no;Family;no
+27;28;yes;abstemious;other;family;public;single;independent;Christian;student;no;South_American;no
+28;29;yes;casual drinker;formal;family;public;single;independent;Catholic;student;no;South_American;no
+29;30;yes;casual drinker;formal;family;on foot;single;independent;Catholic;student;no;South_American;no
+30;31;yes;abstemious;informal;solitary;?;married;kids;Catholic;unemployed;other;South_American;yes
+31;32;yes;abstemious;formal;family;public;single;independent;Catholic;student;no;South_American;no
+32;33;yes;social drinker;other;family;on foot;single;?;none;student;no;South_American;no
+33;34;yes;casual drinker;informal;family;public;single;independent;Catholic;student;no;South_American;no
+34;35;yes;casual drinker;other;friends;car owner;single;independent;none;student;yes;Family;yes
+35;36;yes;social drinker;informal;family;public;single;independent;Catholic;student;no;South_American;no
+36;37;yes;social drinker;other;family;public;single;independent;Catholic;student;no;South_American;no
+37;38;yes;social drinker;other;family;public;single;independent;Catholic;student;no;South_American;no
+38;39;yes;social drinker;other;friends;?;single;independent;none;student;other;South_American;no
+39;40;yes;abstemious;other;friends;public;single;independent;Catholic;student;no;Fast_Food;no
+40;41;yes;abstemious;other;friends;on foot;single;independent;Catholic;professional;no;Contemporary;yes
+41;42;yes;abstemious;other;family;car owner;single;independent;Christian;student;yes;South_American;yes
+42;43;yes;abstemious;other;solitary;public;single;independent;none;student;no;South_American;no
+43;44;yes;social drinker;informal;family;car owner;married;kids;Catholic;professional;yes;South_American;yes
+44;45;yes;casual drinker;formal;friends;car owner;single;independent;Mormon;student;yes;"Middle East;South_American;Asian;Mediterranean";no
+45;46;yes;social drinker;other;friends;car owner;single;independent;Catholic;student;yes;Bar;no
+46;47;yes;abstemious;other;family;public;single;independent;Catholic;student;no;North_American;no
+47;48;yes;casual drinker;other;?;public;single;independent;none;student;no;South_American;no
+48;49;yes;casual drinker;informal;solitary;public;single;?;none;student;no;South_American;no
+49;50;yes;social drinker;other;family;car owner;single;independent;none;student;yes;South_American;no
+50;51;yes;casual drinker;other;family;public;single;independent;none;professional;no;South_American;yes
+51;52;yes;social drinker;other;family;on foot;single;independent;Catholic;student;no;Bakery;no
+52;53;yes;casual drinker;informal;family;public;single;independent;Catholic;student;no;South_American;no
+53;54;yes;social drinker;formal;family;public;single;independent;Catholic;student;no;South_American;no
+54;55;yes;abstemious;other;family;car owner;married;dependent;Catholic;professional;yes;Breakfast;no
+55;56;yes;social drinker;informal;family;on foot;single;independent;Catholic;student;no;South_American;no
+56;57;yes;casual drinker;formal;friends;public;single;independent;Catholic;student;no;North_American;yes
+57;58;yes;abstemious;formal;family;public;single;independent;Catholic;student;no;South_American;no
+58;59;yes;abstemious;formal;friends;on foot;single;independent;Catholic;student;no;South_American;no
+59;60;yes;casual drinker;formal;family;public;single;independent;Catholic;student;no;"Fast_Food;Coffee_Shop;Fast_Food;Breakfast;North_American;North_American;Mediterranean;South_American;Fast_Food;Coffee_Shop;Soup;Fast_Food;Mediterranean";no
+60;61;yes;social drinker;other;friends;car owner;single;independent;Catholic;professional;yes;South_American;yes
+61;62;yes;casual drinker;informal;friends;car owner;single;independent;Catholic;student;yes;South_American;yes
+62;63;yes;casual drinker;formal;family;public;single;independent;Catholic;student;no;South_American;no
+63;64;yes;casual drinker;formal;solitary;public;single;independent;none;student;no;South_American;no
+64;65;yes;abstemious;formal;friends;public;single;independent;Catholic;student;no;South_American;no
+65;66;yes;abstemious;informal;solitary;public;single;?;Catholic;student;no;South_American;yes
+66;67;yes;abstemious;other;family;public;single;independent;Christian;student;no;South_American;no
+67;68;yes;casual drinker;informal;friends;public;single;independent;Catholic;student;no;South_American;no
+68;69;yes;social drinker;other;family;public;single;independent;Catholic;professional;no;South_American;yes
+69;70;yes;casual drinker;informal;friends;public;single;independent;Catholic;student;no;South_American;no
+70;71;yes;abstemious;formal;friends;car owner;single;independent;none;student;yes;South_American;no
+71;72;yes;casual drinker;other;family;public;single;independent;Christian;student;no;South_American;yes
+72;73;yes;abstemious;informal;solitary;car owner;widow;kids;none;unemployed;yes;North_American;no
+73;74;yes;casual drinker;other;family;car owner;single;kids;Catholic;professional;yes;Asian;yes
+74;75;yes;casual drinker;informal;family;car owner;single;independent;Catholic;student;yes;South_American;no
+75;76;yes;social drinker;formal;family;public;married;kids;Catholic;student;no;South_American;yes
+76;77;yes;social drinker;formal;family;public;married;kids;Catholic;student;no;South_American;yes
+77;78;yes;social drinker;informal;solitary;car owner;single;independent;Catholic;professional;yes;South_American;yes
+78;79;yes;abstemious;formal;family;public;single;independent;Catholic;?;no;South_American;no
+79;80;yes;social drinker;formal;friends;car owner;single;independent;Catholic;student;yes;South_American;no
+80;81;yes;casual drinker;informal;family;public;single;independent;Catholic;student;no;South_American;no
+81;82;yes;abstemious;informal;friends;public;single;?;Catholic;student;no;South_American;no
+82;83;yes;abstemious;other;?;?;?;?;none;?;other;South_American;no
+83;84;yes;casual drinker;formal;family;public;single;independent;Catholic;student;no;South_American;no
+84;85;yes;abstemious;other;solitary;car owner;single;independent;Catholic;student;yes;South_American;no
+85;86;yes;social drinker;other;family;car owner;single;independent;Catholic;student;yes;Mediterranean;yes
+86;87;yes;abstemious;other;solitary;public;single;independent;Catholic;student;no;Asian;no
+87;88;yes;social drinker;informal;family;on foot;single;independent;Catholic;student;no;South_American;no
+88;89;yes;casual drinker;informal;family;public;single;independent;Catholic;student;no;South_American;no
+89;90;yes;social drinker;other;friends;car owner;single;independent;Catholic;student;yes;North_American;no
+90;91;yes;casual drinker;other;family;car owner;single;independent;none;student;yes;"North_American;South_American";no
+91;92;yes;abstemious;formal;solitary;public;single;dependent;Catholic;?;no;Game;no
+92;93;yes;casual drinker;other;family;car owner;single;independent;Catholic;student;yes;Asian;yes
+93;94;yes;abstemious;informal;friends;public;single;independent;Catholic;student;no;South_American;no
+94;95;yes;abstemious;formal;family;public;married;independent;Catholic;student;no;Mediterranean;no
+95;96;yes;abstemious;formal;family;public;single;independent;Catholic;student;no;South_American;no
+96;97;yes;abstemious;formal;family;public;single;independent;Catholic;student;no;South_American;no
+97;98;yes;social drinker;formal;family;public;single;independent;Catholic;student;no;South_American;no
+98;99;yes;social drinker;informal;family;public;single;independent;Catholic;student;no;South_American;yes
+99;100;yes;casual drinker;formal;friends;public;single;independent;Christian;student;no;South_American;no
+100;101;yes;casual drinker;other;friends;car owner;single;independent;Catholic;student;yes;"Asian;Mediterranean;Bakery;Middle East;South_American;Fast_Food;South_American;Contemporary;Coffee_Shop;Family;Coffee_Shop;Bar;Australian;Fast_Food;Diner";no
+101;102;yes;social drinker;other;friends;on foot;single;independent;none;student;no;Fast_Food;no
+102;103;yes;abstemious;formal;friends;public;single;independent;Jewish;professional;no;South_American;yes
+103;104;yes;social drinker;other;family;car owner;single;independent;Catholic;student;yes;Mediterranean;yes
+104;105;yes;social drinker;formal;family;public;single;independent;Christian;student;no;Coffee_Shop;no
+105;106;yes;casual drinker;informal;friends;car owner;single;independent;Catholic;professional;yes;Meat;yes
+106;107;yes;abstemious;other;friends;car owner;single;independent;Catholic;?;yes;South_American;yes
+107;108;yes;abstemious;informal;solitary;public;single;independent;Catholic;student;no;"Coffee_Shop;Asian;South_American;Fast_Food;South_American;Fast_Food;North_American;Fast_Food;Fast_Food;Asian;Fast_Food;Asian;Ice_Cream;Coffee_Shop;Asian;Game;Family;Mediterranean";yes
+108;109;yes;abstemious;formal;solitary;public;single;independent;Catholic;student;no;South_American;no
+109;110;yes;abstemious;other;family;car owner;single;independent;Catholic;student;yes;South_American;no
+110;111;yes;casual drinker;formal;friends;car owner;single;independent;Catholic;student;yes;South_American;no
+111;112;yes;casual drinker;formal;friends;car owner;single;independent;Catholic;student;yes;South_American;no
+112;113;yes;casual drinker;formal;family;public;single;independent;Catholic;student;no;Fast_Food;yes
+113;114;yes;abstemious;other;family;on foot;single;independent;Catholic;student;no;South_American;no
+114;115;yes;social drinker;formal;friends;public;single;independent;Catholic;student;no;South_American;no
+115;116;yes;social drinker;formal;family;public;married;kids;Catholic;student;no;South_American;yes
+116;117;yes;abstemious;other;friends;public;single;independent;Catholic;professional;no;Mediterranean;yes
+117;118;yes;casual drinker;informal;friends;public;single;independent;none;student;no;Fast_Food;no
+118;119;yes;abstemious;formal;family;public;single;independent;Catholic;student;no;South_American;no
+119;120;yes;abstemious;informal;friends;public;single;independent;none;student;no;South_American;no
+120;121;yes;social drinker;other;family;public;married;independent;Catholic;working-class;no;South_American;yes
+121;122;yes;abstemious;other;?;?;?;?;none;?;other;Middle East;no
+122;123;yes;abstemious;informal;family;?;single;independent;Catholic;student;other;South_American;no
+123;124;yes;casual drinker;informal;friends;public;single;independent;Catholic;student;no;South_American;no
+124;125;yes;casual drinker;formal;friends;public;single;independent;Catholic;student;no;South_American;no
+125;126;yes;casual drinker;formal;friends;on foot;single;independent;Catholic;student;no;South_American;no
+126;127;yes;abstemious;other;solitary;public;single;independent;Catholic;student;no;South_American;no
+127;128;yes;casual drinker;other;friends;public;single;independent;Catholic;student;no;"Coffee_Shop;Fast_Food;Fast_Food;South_American";no
+128;129;yes;casual drinker;other;friends;public;single;independent;none;student;no;South_American;no
+129;130;yes;abstemious;other;?;?;?;?;none;?;other;South_American;no
+130;131;yes;social drinker;other;friends;car owner;married;kids;none;student;yes;South_American;no
+131;132;yes;casual drinker;informal;solitary;public;single;?;none;student;no;South_American;no
+132;133;yes;abstemious;other;family;car owner;single;independent;none;student;yes;South_American;yes
+133;134;yes;casual drinker;other;family;public;single;independent;Catholic;student;no;South_American;no
+134;135;yes;casual drinker;informal;family;on foot;single;kids;Catholic;student;no;"Healthy-Vegetarian;Meat;Middle East;Mediterranean;European;European;Mediterranean;Bakery;Fast_Food;Mediterranean;Fast_Food;Mediterranean;Fast_Food;European;Asian;Fast_Food;Contemporary;Asian;Asian;Healthy-Vegetarian;Mediterranean;South_American;Breakfast;Mediterranean;Contemporary;African;Mediterranean;North_American;Middle East;Diner;European;Asian;Australian;Breakfast;North_American;South_American;North_American;Coffee_Shop;European;Family;Indian-Pakistani;Coffee_Shop;International;North_American;Australian;European;South_American;Mediterranean;Middle East;African;European;Asian;Australian;Mediterranean;South_American;Asian;Breakfast;Contemporary;Mediterranean;Asian;European;Bar;Soup;North_American;Asian;North_American;Middle East;South_American;Bar;South_American;Coffee_Shop;Mediterranean;Asian;Mediterranean;South_American;Australian;European;Bakery;European;Fast_Food;Kosher;Healthy-Vegetarian;South_American;Asian;South_American;Asian;European;South_American;Asian;North_American;Game;Mediterranean;European;South_American;European;Mediterranean;Asian;Asian;Meat;Mediterranean;South_American;South_American;Ice_Cream";no
+135;136;yes;social drinker;other;friends;car owner;single;independent;Catholic;student;yes;South_American;no
+136;137;yes;social drinker;formal;family;public;single;independent;Catholic;student;no;South_American;no
+137;138;yes;social drinker;formal;friends;public;single;independent;none;student;no;Fast_Food;no

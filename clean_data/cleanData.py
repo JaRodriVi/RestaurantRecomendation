@@ -105,7 +105,6 @@ userpayment['Upayment_accepts'] = userpayment['Upayment_accepts'].replace(['VISA
                                                                            , 'Visa', 'Japan_Credit_Bureau'],
                                                                           'credictCard')
 userpayment['Upayment_accepts'] = userpayment['Upayment_accepts'].replace(['gift_certificates'], 'checks')
-userpayment['Upayment_accepts'] = userpayment['Upayment_accepts'].astype('category')
 
 usercuisine['Rcuisine_Type'] = usercuisine['Rcuisine']
 usercuisine['Rcuisine_Type'] = usercuisine['Rcuisine_Type'].replace(['French','Spanish','Italian','Seafood',
@@ -144,6 +143,10 @@ usercuisine['Rcuisine_Type'] = usercuisine['Rcuisine_Type'].replace(['Contempora
 usercuisine['Rcuisine_Type'] = usercuisine['Rcuisine_Type'].replace(['Australian','Polynesian','Indonesian',
                                                                      'Pacific_Rim'], 'Australian')
 
+userprofile['smoker'] = userprofile['smoker'].map(lambda x: 'yes' if x else 'no')
+userprofile['dress_preference'] = userprofile['dress_preference'].replace(['elegant'],'formal')
+userprofile['dress_preference'] = userprofile['dress_preference'].replace(['no preference','?'],'other')
+
 rs.replaceID(realID=132706,falseID=132584,ID='placeID',data=listOfData_r)
 
 ###############
@@ -152,6 +155,10 @@ rs.replaceID(realID=132706,falseID=132584,ID='placeID',data=listOfData_r)
 userProfile_r = userprofile[['userID', 'smoker', 'drink_level','dress_preference', 
                              'ambience', 'transport', 'marital_status','hijos', 
                              'religion', 'activity']]
+userProfile_r['need_Parking'] = userProfile_r['transport']
+userProfile_r['need_Parking'] = userProfile_r['need_Parking'].replace(['car owner'],'yes')
+userProfile_r['need_Parking'] = userProfile_r['need_Parking'].replace(['on foot', 'public'],'no')
+userProfile_r['need_Parking'] = userProfile_r['need_Parking'].replace(['?'],'other')
 
 usercuisine_list = usercuisine.groupby('userID').apply(lambda x: list(x['Rcuisine_Type']))
 usercuisine_list = pd.DataFrame({'userID':usercuisine_list.index,'Rcuisine_Type':usercuisine_list.values})
@@ -163,6 +170,7 @@ userProfile_r = userProfile_r.merge(userpayment_list, how = 'left', on = 'userID
 
 userProfile_r['Upayment_accepts'] = userProfile_r['Upayment_accepts'].map(lambda x: 'nan' if type(x)==float else ';'.join(list(x)))
 userProfile_r['Upayment_accepts'] = userProfile_r['Upayment_accepts'].map(lambda x: 'yes' if 'credictCard' in x.split(';') else 'no')
+
 userProfile_r['Rcuisine_Type'] = userProfile_r['Rcuisine_Type'].map(lambda x: 'nan' if type(x)==float else ';'.join(list(x)))
 
 userGeo_r = userprofile[['userID', 'latitude', 'longitude']]
@@ -179,7 +187,7 @@ chefmozProfile_r= chefmozProfile_r.merge(chefmozcuisine, how = 'left', on = 'pla
 chefmozProfile_r= chefmozProfile_r.merge(chefmozhours4, how = 'left', on = 'placeID')
 chefmozProfile_r= chefmozProfile_r.merge(chefmozparking, how = 'left', on = 'placeID')
 
-chefmozGeo_r = geoplaces2[['placeID', 'latitude', 'longitude', 'the_geom_meter',
+chefmozGeo_r = geoplaces2[['placeID', 'name', 'latitude', 'longitude', 'the_geom_meter',
                            'address', 'city', 'state', 'country', 'fax', 'zip']]
 
 chefmozProfile_r = rs.unionData(chefmozProfile_r,'placeID')
@@ -207,18 +215,18 @@ chefmozProfile_r = chefmozProfile_r.drop(chefmozProfile_r[chefmozProfile_r['plac
 # Reset placeID and userID
 ##########
 
-userDict = pd.DataFrame(list(range(len(userProfile_r['userID'].unique()))),
+userDict = pd.DataFrame(list(range(1,len(userProfile_r['userID'].unique())+1)),
                         index = userProfile_r['userID']).to_dict()[0]
 restDict = pd.DataFrame(list(range(len(chefmozProfile_r['placeID'].unique()))),
                         index = chefmozProfile_r['placeID']).to_dict()[0]
-userProfile_r['userID'] = userProfile_r['userID'].apply(lambda x: userDict[x])
-userGeo_r['userID'] = userGeo_r['userID'].apply(lambda x: userDict[x])
-userChefmozRelation_r['userID'] = userChefmozRelation_r['userID'].apply(lambda x: userDict[x])
-rating_final['userID'] = rating_final['userID'].apply(lambda x: userDict[x])
-userChefmozRelation_r['placeID'] = userChefmozRelation_r['placeID'].apply(lambda x: restDict[x])
-chefmozProfile_r['placeID'] = chefmozProfile_r['placeID'].apply(lambda x: restDict[x])
-chefmozGeo_r['placeID'] = chefmozGeo_r['placeID'].apply(lambda x: restDict[x])
-rating_final['placeID'] = rating_final['placeID'].apply(lambda x: restDict[x])
+userProfile_r['userID'] = userProfile_r['userID'].map(lambda x: userDict[x])
+userGeo_r['userID'] = userGeo_r['userID'].map(lambda x: userDict[x])
+userChefmozRelation_r['userID'] = userChefmozRelation_r['userID'].map(lambda x: userDict[x])
+rating_final['userID'] = rating_final['userID'].map(lambda x: userDict[x])
+userChefmozRelation_r['placeID'] = userChefmozRelation_r['placeID'].map(lambda x: restDict[x])
+chefmozProfile_r['placeID'] = chefmozProfile_r['placeID'].map(lambda x: restDict[x])
+chefmozGeo_r['placeID'] = chefmozGeo_r['placeID'].map(lambda x: restDict[x])
+rating_final['placeID'] = rating_final['placeID'].map(lambda x: restDict[x])
 
 ##########
 # Write CSV
