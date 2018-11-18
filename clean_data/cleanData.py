@@ -5,18 +5,19 @@ import matplotlib.pyplot as plt
 import sys
 sys.path.append("../library")
 import RecSys as rs
-#patch = "" # For Google CoLab
-path = "../data/"
+#path = "" # For Google CoLab
+pathData = sys.path[0] + "/data/"
+pathClean = sys.path[0] + "/clean_data/"
 
-chefmozacccepts = pd.read_csv(path+"chefmozaccepts.csv")
-chefmozcuisine = pd.read_csv(path+"chefmozcuisine.csv")
-chefmozhours4 = pd.read_csv(path+"chefmozhours4.csv")
-chefmozparking = pd.read_csv(path+"chefmozparking.csv")
-geoplaces2 = pd.read_csv(path+"geoplaces2.csv")
-rating_final = pd.read_csv(path+"rating_final.csv")
-usercuisine = pd.read_csv(path+"usercuisine.csv")
-userpayment = pd.read_csv(path+"userpayment.csv")
-userprofile = pd.read_csv(path+"userprofile.csv")
+chefmozacccepts = pd.read_csv(pathData+"chefmozaccepts.csv")
+chefmozcuisine = pd.read_csv(pathData+"chefmozcuisine.csv")
+chefmozhours4 = pd.read_csv(pathData+"chefmozhours4.csv")
+chefmozparking = pd.read_csv(pathData+"chefmozparking.csv")
+geoplaces2 = pd.read_csv(pathData+"geoplaces2.csv")
+rating_final = pd.read_csv(pathData+"rating_final.csv")
+usercuisine = pd.read_csv(pathData+"usercuisine.csv")
+userpayment = pd.read_csv(pathData+"userpayment.csv")
+userprofile = pd.read_csv(pathData+"userprofile.csv")
 
 # This will contain the list of Datas that we will 
 # use for the Recommendation System
@@ -26,7 +27,7 @@ listOfData_r = [rating_final]
 # but we will try make the recomendation with full data
 chefmozacccepts['Rpayment_accepts'] = chefmozacccepts['Rpayment']
 chefmozacccepts['Rpayment_accepts'] = chefmozacccepts['Rpayment_accepts'].replace(['VISA', 'MasterCard-Eurocard', 
-                                                                                   'American_Express','bank_debit_cards',
+                                                                                  'American_Express','bank_debit_cards',
                                                                                    'Discover', 'Carte_Blanche',
                                                                                    'Diners_Club', 'Visa', 
                                                                                    'Japan_Credit_Bureau'], 'credictCard')
@@ -171,13 +172,9 @@ userProfile_r = userProfile_r.merge(userpayment_list, how = 'left', on = 'userID
 userProfile_r['Upayment_accepts'] = userProfile_r['Upayment_accepts'].map(lambda x: 'nan' if type(x)==float else ';'.join(list(x)))
 userProfile_r['Upayment_accepts'] = userProfile_r['Upayment_accepts'].map(lambda x: 'yes' if 'credictCard' in x.split(';') else 'no')
 
-userProfile_r['Rcuisine_Type'] = userProfile_r['Rcuisine_Type'].map(lambda x: 'nan' if type(x)==float else ';'.join(list(x)))
+userProfile_r['Rcuisine_Type'] = userProfile_r['Rcuisine_Type'].map(lambda x: 'nan' if type(x)==float else ';'.join(list(set(list(x)))))
 
 userGeo_r = userprofile[['userID', 'latitude', 'longitude']]
-
-userChefmozRelation_r = rating_final
-userChefmozRelation_r = userChefmozRelation_r.merge(userpayment, how='left', on='userID')
-userChefmozRelation_r = userChefmozRelation_r.merge(usercuisine, how='left', on='userID')
 
 chefmozProfile_r = geoplaces2[['placeID', 'alcohol', 'have_smoking_area','dress_code',
                                'accessibility', 'price', 'Rambience', 'franchise', 'other_services']]
@@ -194,6 +191,7 @@ chefmozProfile_r = rs.unionData(chefmozProfile_r,'placeID')
 chefmozProfile_r['CreditCardAccepts'] = chefmozProfile_r['Rpayment_accepts'].\
     map(lambda x:'yes' if 'credictCard' in str(x).split(';') else 'no')
 
+userChefmozRelation_r = rating_final.copy()
 userChefmozRelation_r['rating'] = userChefmozRelation_r['rating'].apply(lambda x: x-1)
 userChefmozRelation_r['food_rating'] = userChefmozRelation_r['food_rating'].apply(lambda x: x-1)
 userChefmozRelation_r['service_rating'] = userChefmozRelation_r['service_rating'].apply(lambda x: x-1)
@@ -202,7 +200,6 @@ userChefmozRelation_r['service_rating'] = userChefmozRelation_r['service_rating'
 # Drop Session
 ##########
 chefmozProfile_r = chefmozProfile_r.drop(['Rpayment','Rpayment_accepts','Rcuisine','hours','days'], axis=1)
-userChefmozRelation_r = userChefmozRelation_r.drop(['Upayment','Rcuisine'], axis=1)
 
 listPlaceID2Drop = list(chefmozProfile_r[chefmozProfile_r["Rcuisine_Type"]=='nan']['placeID'].values)
 rating_final = rating_final.drop(rating_final[rating_final['placeID'].isin(listPlaceID2Drop)].index)
@@ -231,9 +228,9 @@ rating_final['placeID'] = rating_final['placeID'].map(lambda x: restDict[x])
 ##########
 # Write CSV
 ##########
-userProfile_r.to_csv("userProfile_r.csv", sep=';')
-userGeo_r.to_csv("userGeo_r.csv", sep=';')
-userChefmozRelation_r.to_csv("userChefmozRelation_r.csv", sep=';')
-chefmozProfile_r.to_csv("chefmozProfile_r.csv", sep=';')
-chefmozGeo_r.to_csv("chefmozGeo_r.csv", sep=';')
-rating_final.to_csv("rating_final_r.csv", sep=';')
+userProfile_r.to_csv(pathClean+"userProfile_r.csv", sep=';')
+userGeo_r.to_csv(pathClean+"userGeo_r.csv", sep=';')
+userChefmozRelation_r.to_csv(pathClean+"userChefmozRelation_r.csv", sep=';')
+chefmozProfile_r.to_csv(pathClean+"chefmozProfile_r.csv", sep=';')
+chefmozGeo_r.to_csv(pathClean+"chefmozGeo_r.csv", sep=';')
+rating_final.to_csv(pathClean+"rating_final_r.csv", sep=';')

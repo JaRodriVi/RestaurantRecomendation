@@ -7,7 +7,9 @@ from sklearn.model_selection import train_test_split
 
 sys.path.append("../library")
 import RecSys as rs
-path = "../clean_data/"
+
+path = sys.path[0] + "/clean_data/"
+#path = "../clean_data/"
 
 chefmozGeo_r = pd.read_csv(path + "chefmozGeo_r.csv", sep=';').drop(['Unnamed: 0'],axis=1)
 chefmozProfile_r = pd.read_csv(path + "chefmozProfile_r.csv", sep=';').drop(['Unnamed: 0'],axis=1)
