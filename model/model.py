@@ -7,7 +7,6 @@ import numpy as np
 
 from sklearn.model_selection import train_test_split
 import RecSys as rs
-import specifyLibrary as sl
 import random
 
 ######################
@@ -150,6 +149,47 @@ def evaluate_recall(topN, trainGrouped, testGrouped, coMatrix, popularity_baseli
     print("Popularity model: recall@%s=%.3f"%(topN, recall_baseline))    
     return recall, recall_baseline
 
+
+def userCoMatrix(userInfo,dataFrame,n_items,coMatix='noMatrix'):
+    
+    if coMatix=='noMatrix':
+        coMatix=np.zeros((n_items, n_items))
+        
+    userCoMatrix = np.zeros((n_items, n_items))
+    
+    columns = ['Rcuisine_Type','dress_preference','need_Parking','Upayment_accepts']
+    userInfo = zip(columns,userInfo)
+    
+    for userKey,userValue in userInfo:
+        if type(userValue)!=list:
+            userValue=[userValue]
+        for value in userValue:
+            items = [(a,b) for a in generalRdict[userKey][value] for b in generalRdict[userKey][value]]
+            for item in items:
+                userCoMatrix[item] += 1
+    return userCoMatrix+coMatix
+
+def co_occurrance_recommendation_for_user(userInfo, value, coMatrix, df, n_items, ntop=10):
+    userCoM = userCoMatrix(userInfo, df, n_items, coMatrix)
+    return co_occurrance_recommendation(value,userCoM,ntop)
+
+def co_occurrance_recommendation_for_list_users(userInfo, values, coMatrix, df, n_items, ntop=10):
+    userValue = zip(userInfo,values)
+    return list(map(lambda x: co_occurrance_recommendation_for_user(x[0], x[1], coMatrix, df, n_items, ntop),userValue))
+
+def createDict(tupleIDValues,others,dictionary={}):
+    for ID,values in tupleIDValues:
+        for value in values:
+            if value in dictionary.keys():
+                dictionary[value].append(ID)
+            else:
+                dictionary[value] = [ID]
+    for values in others:
+        for value in values:
+            if not value in dictionary.keys():
+                dictionary[value] = []
+    return dictionary
+
 ######################
 ######################
 ######################
@@ -170,6 +210,9 @@ trainPlaceList = train.groupby('userID')['placeID'].apply(list).reset_index()
 testPlaceList = test.groupby('userID')['placeID'].apply(list).reset_index()
 
 mergeTrainTest = pd.merge(trainPlaceList, testPlaceList, how='inner', on='userID', suffixes=('_train', '_test')).set_index('userID')
+
+userProfile_r['Rcuisine_Type'] = userProfile_r['Rcuisine_Type'].map(lambda x: x.split(';'))
+chefmozProfile_r['Rcuisine_Type'] = chefmozProfile_r['Rcuisine_Type'].map(lambda x: x.split(';'))
 
 ######################
 # fixed recommendations for all Users
@@ -205,3 +248,35 @@ for user,restaurant in restaurantPerUser.items():
 ######################
 # User Co-occurrence Matrix
 ######################
+
+chefmozProfline_PlaceID = chefmozProfile_r['placeID'].values
+chefmozProfline_RType = chefmozProfile_r['Rcuisine_Type'].values
+userProfile_Rtype = userProfile_r['Rcuisine_Type'].values
+tupleRType_PlaceID = zip(chefmozProfline_PlaceID,chefmozProfline_RType)
+
+restIDName = chefmozGeo_r.groupby('placeID')['name'].apply(id).to_dict()
+restRTypeID = createDict(tupleRType_PlaceID,userProfile_Rtype)
+restAlcoholID = chefmozProfile_r.groupby('alcohol')['placeID'].apply(np.array).to_dict()
+restSmokeID = chefmozProfile_r.groupby('have_smoking_area')['placeID'].apply(np.array).to_dict()
+restDressID = chefmozProfile_r.groupby('dress_code')['placeID'].apply(np.array).to_dict()
+restDressID['other'] = []
+restAccesID = chefmozProfile_r.groupby('accessibility')['placeID'].apply(np.array).to_dict()
+restPriceID = chefmozProfile_r.groupby('price')['placeID'].apply(np.array).to_dict()
+restAmbienceID = chefmozProfile_r.groupby('Rambience')['placeID'].apply(np.array).to_dict()
+restParkingID = chefmozProfile_r.groupby('parking')['placeID'].apply(np.array).to_dict()
+restParkingID['other'] = []
+restCredictID = chefmozProfile_r.groupby('CreditCardAccepts')['placeID'].apply(np.array).to_dict()
+restCredictID['no'] = []
+
+generalRdict= {'Rcuisine_Type':restRTypeID, 'drink_level':restAlcoholID, 'dress_preference':restDressID, 'ambience':restAmbienceID, 'need_Parking':restParkingID, 'smoker':restSmokeID, 'Upayment_accepts':restCredictID, 'restPriceID':restPriceID, 'restAccesID':restAccesID}
+
+def createUserCoMatrix(userInfo):
+    return userCoMatrix(userInfo,userProfile_r,n_items,coMatrix)
+
+######################
+######################
+######################
+# Recommend me
+######################
+
+
