@@ -23,3 +23,11 @@ This app it's made for only use on terminal.
 You hace to go to the dir where the repo is and execute the execute.py
 python -W ignore execute.py
 That's all, enjoy.
+
+
+
+PD: Un aviso para Isra y Dani, este proyecto se acabó. 
+
+Desisto. 
+
+Os prometo un proyecto de Deep Learning, no me odieis y lo siento.
