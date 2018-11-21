@@ -79,3 +79,15 @@ For other hand, we can use sorted all restaurant in order to most Rating, so we 
 
 ##### user Co-Matrix of one user
 ![userCoMatrixSorted](/imgs/userCoMatrixSorted.png)
+
+## Failed
+When I was developing the model I realised that the restaurant was for all mexico, so this made me think, maybe my data is not totally realistic since a person from a tip of Mexico is very unlikely to go to a restaurant that is at the opposite end.
+
+For that reason I was very dejected during the last phase of development.
+
+## Conclusion
+I will stop development this model and I will start someone Deep Learning proyect.
+
+I think that this model not is the best model that the data set lets create, but this is my model.
+    
+    END
