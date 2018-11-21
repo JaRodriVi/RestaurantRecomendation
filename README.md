@@ -14,3 +14,12 @@ I don't know how much it will cover or if I will have enough time to cover my ex
   3. Try to compensate the restaurant that has few but good reviews.
   
 If in the course of the development of the project some other objective occurs to me I will try to add it.
+
+## Instalation:
+For this step you only have to clone the git on yout PC and that's all.
+
+## Execute:
+This app it's made for only use on terminal.
+You hace to go to the dir where the repo is and execute the execute.py
+python -W ignore execute.py
+That's all, enjoy.
