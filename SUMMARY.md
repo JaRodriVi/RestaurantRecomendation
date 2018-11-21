@@ -50,10 +50,10 @@ For that reason I prefer transform rating in -1 - 1, because I think that the ba
 We can see there how the transformation affected to us data:
 
 Rating 0 - 2
-(imgs/rating02.png)
+(/imgs/rating02.png)
 
 Rating -1 - 1
-(imgs/rating-11.png)
+(/imgs/rating-11.png)
 
 As we can see, on our data have bad restaurants :D 
 
@@ -62,15 +62,15 @@ As we can see, on our data have bad restaurants :D
 The user Co-Matrix is the Co-Matrix but with a little change, we use the information of the user to modify the Co-Matrix and reward the restaurant that have some similarity with their preferences.
 
 There we have de Co-Matrix:
-(imgs/coMatrix.png)
+(/imgs/coMatrix.png)
 
 And here the user Co-Matrix of one user
-(imgs/userCoMatrix.png)
+(/imgs/userCoMatrix.png)
 
 
 For other hand, we can use sorted all restaurant in order to most Rating, so we have this Matrix.
 Co-Matrix:
-(imgs/coMatrixSorted.png)
+(/imgs/coMatrixSorted.png)
 
 user Co-Matrix of one user
-(imgs/userCoMatrixSorted.png)
+(/imgs/userCoMatrixSorted.png)
