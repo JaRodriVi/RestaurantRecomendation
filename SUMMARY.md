@@ -33,14 +33,11 @@ Before I look a little over the data with graphics I would like to apologize to 
 ### Clean
 
 The most important clean that we did is the group of the restaurant type.
-
 As we can see:
-
-![rtype1](imgs/beforeRtype.png)
+(imgs/beforeRtype.png)
 
 At first we have a variable with a lot of categories, but we transform as much as possible and we reduce the number of categories
-
-![rtype2](imgs/afterRtype.png)
+(imgs/afterRtype.png)
 
 ### Let go to see ratings
 
@@ -52,13 +49,11 @@ For that reason I prefer transform rating in -1 - 1, because I think that the ba
 
 We can see there how the transformation affected to us data:
 
-##### Rating 0 - 2
+Rating 0 - 2
+(imgs/rating02.png)
 
-![rating1](/imgs/rating02.png)
-
-##### Rating -1 - 1
-
-![rating2](/imgs/rating-11.png)
+Rating -1 - 1
+(imgs/rating-11.png)
 
 As we can see, on our data have bad restaurants :D 
 
@@ -66,28 +61,16 @@ As we can see, on our data have bad restaurants :D
 
 The user Co-Matrix is the Co-Matrix but with a little change, we use the information of the user to modify the Co-Matrix and reward the restaurant that have some similarity with their preferences.
 
-##### There we have de Co-Matrix:
-![coMatrix](/imgs/coMatrix.png)
+There we have de Co-Matrix:
+(imgs/coMatrix.png)
 
-##### And here the user Co-Matrix of one user
-![userCoMatrix](/imgs/userCoMatrix.png)
+And here the user Co-Matrix of one user
+(imgs/userCoMatrix.png)
 
 
 For other hand, we can use sorted all restaurant in order to most Rating, so we have this Matrix.
-##### Co-Matrix:
-![coMatrixSorted](/imgs/coMatrixSorted.png)
+Co-Matrix:
+(imgs/coMatrixSorted.png)
 
-##### user Co-Matrix of one user
-![userCoMatrixSorted](/imgs/userCoMatrixSorted.png)
-
-## Failed
-When I was developing the model I realised that the restaurant was for all mexico, so this made me think, maybe my data is not totally realistic since a person from a tip of Mexico is very unlikely to go to a restaurant that is at the opposite end.
-
-For that reason I was very dejected during the last phase of development.
-
-## Conclusion
-I will stop development this model and I will start someone Deep Learning proyect.
-
-I think that this model not is the best model that the data set lets create, but this is my model.
-    
-    END
+user Co-Matrix of one user
+(imgs/userCoMatrixSorted.png)
